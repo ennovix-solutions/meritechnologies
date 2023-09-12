@@ -1,0 +1,13 @@
+{
+  "subtitle": "Our Services",
+  "title": "Unlocking Digital Potential",
+  "description": "At Meri Technologies, we specialize in a wide range of services that empower businesses to thrive in the digital landscape. Our offerings include strategic digital marketing, captivating branding solutions, innovative website development, and stunning graphics design. Partner with us to unlock your full digital potential.",
+  "button1": {
+    "label": "Learn More About Us",
+    "link": "/about-2"
+  },
+  "button2": {
+    "label": "Explore Our Portfolio",
+    "link": "/portfolio"
+  }
+}

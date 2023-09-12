@@ -1,0 +1,31 @@
+{
+  "subtitle": "Meet Our Dedicated Team",
+  "title": "A Team of Passionate Professionals",
+  "description": "At Meri Technologies, our team is the driving force behind our success. Each member brings a unique set of skills and a shared passion for technology. Together, we turn ideas into reality and redefine industry standards.",
+  "more": {
+    "label": "Learn More About Our Team",
+    "link": "/team"
+  },
+  "items": [
+    {
+      "image": "img/team/1.png",
+      "name": "John Doe",
+      "role": "Web Developer"
+    },
+    {
+      "image": "img/team/2.png",
+      "name": "Jane Smith",
+      "role": "Graphic Designer"
+    },
+    {
+      "image": "img/team/3.png",
+      "name": "Mike Johnson",
+      "role": "Digital Marketer"
+    },
+    {
+      "image": "img/team/4.png",
+      "name": "Sarah Davis",
+      "role": "Brand Strategist"
+    }
+  ]
+}

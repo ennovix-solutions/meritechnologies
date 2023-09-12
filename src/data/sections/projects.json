@@ -1,0 +1,9 @@
+{
+  "subtitle": "Our Portfolio",
+  "title": "Exploring Our Creative Works",
+  "description": "Experience the essence of Meri Technologies through our diverse portfolio of creative projects. Each piece showcases our commitment to innovation and excellence. Dive into our world of design and digital brilliance.",
+  "button": {
+    "label": "View All Projects",
+    "link": "/portfolio"
+  }
+}

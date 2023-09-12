@@ -1,0 +1,161 @@
+{
+  "settings": {
+    "formspreeURL": "https://formspree.io/f/your_api_key",
+    "mailchimp": {
+      "url": "",
+      "key": ""
+    }
+  },
+  "header": {
+    "logo": {
+      "text": "meri",
+      "accent": "techs",
+      "image": {
+        "accent": "/img/logo.png",
+        "dark": "/img/logo2.png",
+        "light": "/img/logo3.png"
+      }
+    },
+    "menu": [
+      {
+        "label": "Home",
+        "link": "/",
+        "children": 0
+      },
+      {
+        "label": "About",
+        "link": "/about",
+        "children": 0
+      },
+      {
+        "label": "Portfolio",
+        "link": "/portfolio",
+        "children": 0
+      },
+      {
+        "label": "Services",
+        "link": "/services",
+        "children": 0
+      },
+      {
+        "label": "Contact",
+        "link": "/contact",
+        "children": 0
+      }
+    ]
+  },
+  "footer": {
+    "logo": {
+      "text": "It’s Time to Pull in a",
+      "accent": " Professional"
+    },
+    "description": "Welcome to Meri Technologies – where innovation meets excellence. We specialize in digital solutions that empower your business to thrive in the digital landscape. Discover limitless possibilities with us.",
+    "menu": [
+      {
+        "label": "Homepage",
+        "link": "/"
+      },
+      {
+        "label": "About",
+        "link": "about"
+      },
+      {
+        "label": "Portfolio",
+        "link": "portfolio"
+      },
+      {
+        "label": "Newsletter",
+        "link": "blog"
+      },
+      {
+        "label": "Contact",
+        "link": "contact"
+      }
+    ],
+    "links": [
+      {
+        "label": "Terms",
+        "link": "#."
+      },
+      {
+        "label": "Careers",
+        "link": "#."
+      },
+      {
+        "label": "Privacy Policy",
+        "link": "#."
+      },
+      {
+        "label": "Help Center",
+        "link": "#."
+      },
+      {
+        "label": "Sitemap",
+        "link": "#."
+      }
+    ],
+    "copy": "© 2023 MERI TECHNOLOGIES. All Rights Reserved.",
+    "dev": "Developed by <a href=\"https://ennovix.techs\" class=\"mil-hidden-trigger\">@ennovix</a>",
+    "bg_image": "/img/hero/1.jpg",
+    "instagram": {
+      "images": [
+        "img/content/instagram-2/1.jpg",
+        "img/content/instagram-2/2.jpg",
+        "img/content/instagram-2/3.jpg",
+        "img/content/instagram-2/4.jpg",
+        "img/content/instagram-2/5.jpg",
+        "img/content/instagram-2/6.jpg"
+      ],
+      "button": {
+        "label": "Our Instagram",
+        "link": "https://instagram.com/meri.technologies"
+      }
+    }
+  },
+  "contacts": {
+    "email": "meri.technologies@gmail.com",
+    "tel": "+251 920 496 9383",
+    "contact": {
+      "pageImage": "img/content/5.jpg",
+      "pageTitle": "Contact",
+      "subtitle": "Contact",
+      "title": "Get in touch",
+      "info": [
+        {
+          "icon": "img/icons/4.svg",
+          "label": "Support email",
+          "value": "meri.technologoies@gmail.com",
+          "link": "mailto:meri.technologoies@gmail.com"
+        },
+        {
+          "icon": "img/icons/7.svg",
+          "label": "Call 24/7",
+          "value": "+251920406087",
+          "link": "tel:+251920406087"
+        }
+      ]
+    }
+  },
+  "social": [
+    {
+      "link": "https://facebook.com",
+      "icon": "fab fa-facebook-f",
+      "title": "Facebook"
+    },
+    {
+      "link": "https://instagram.com/meri.technologies",
+      "icon": "fab fa-instagram",
+      "title": "Insagram"
+    },
+    {
+      "link": "https://linkedin.com",
+      "icon": "fab fa-linkedin-in",
+      "title": "Linkedin"
+    },
+    {
+      "link": "tel:0920405895",
+      "icon": "fa fa-solid fa-phone",
+      "title": "Call us"
+    }
+  ]
+}

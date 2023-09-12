@@ -1,0 +1,34 @@
+{
+  "subtitle": "Client Testimonials",
+  "title": "What Our Clients Say About Us",
+  "button": {
+    "label": "Contact Us",
+    "link": "/contact"
+  },
+  "items": [
+    {
+      "name": "Amina Ahmed",
+      "image": "img/team/1.png",
+      "role": "CEO, Mil Design Studio",
+      "text": "Meri Technologies exceeded our expectations. Their dedication to delivering quality work and innovative solutions is remarkable. We highly recommend their services."
+    },
+    {
+      "name": "Mohammed Ali",
+      "image": "img/team/2.png",
+      "role": "COO, Tech Innovators",
+      "text": "Working with Meri Technologies has been a game-changer for our business. Their expertise in digital marketing and branding has helped us reach new heights."
+    },
+    {
+      "name": "Tigist Yohannes",
+      "image": "img/team/3.png",
+      "role": "Marketing Manager, XYZ Corp",
+      "text": "Meri Technologies understands our brand's unique needs. Their creative design solutions have made a significant impact on our brand image."
+    },
+    {
+      "name": "Ahmed Ibrahim",
+      "image": "img/team/4.png",
+      "role": "Founder, StartUp Ventures",
+      "text": "Meri Technologies is a reliable partner for startups. They provided us with a stunning website and effective digital marketing strategies."
+    }
+  ]
+}

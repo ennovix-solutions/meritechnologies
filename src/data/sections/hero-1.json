@@ -1,0 +1,57 @@
+{
+  "bg_image": "img/hero/1.jpg",
+  "subtitle": "Welcome to Meri Technologies!",
+  "title": {
+    "before": "Innovative",
+    "accent": "Tech ",
+    "after": "Solutions"
+  },
+  "description": "Meri Technologies is your gateway to innovative technological solutions that transcend boundaries. Our team of passionate experts is committed to turning visionary ideas into groundbreaking realities. With a relentless pursuit of excellence, we're here to redefine possibilities in the tech landscape. Whether you're envisioning the next big breakthrough or aiming to streamline your current operations, Meri Technologies is your trusted partner.",
+  "image": "img/hero/6.png",
+  "partner": {
+    "title": "OUR PARTNERS",
+    "description": "At Meri Technologies, we believe in the power of collaboration. Our valued partners play a crucial role in our journey towards innovation and excellence. Together, we explore new horizons and create remarkable solutions."
+  },
+  "partners": [
+    {
+      "image": "img/partners/1.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/2.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/3.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/4.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/5.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/6.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/7.svg",
+      "link": "#.",
+      "alt": "logo"
+    },
+    {
+      "image": "img/partners/8.svg",
+      "link": "#.",
+      "alt": "logo"
+    }
+  ]
+}
