@@ -1,44 +1,44 @@
 ---
 #preview details
 image: "img/icons/4.svg"
-title: "Digital Marketing"
-short: "Deleniti ratione beatae"
+title: "Digital Marketing Services"
+short: "Strategic Online Promotion"
 
 #full details
 fullImage: "/img/content/12.jpg"
-description: "At Meri, we're committed to providing our clients with the highest level of service and support. Contact us today to learn more about how we can help you achieve your content and social media goals."
+description: "At Meri Technologies, we're dedicated to delivering top-notch digital marketing solutions that propel your brand's online presence to new heights. Get in touch with us today to discover how we can assist you in accomplishing your content and social media objectives."
 
 list: 
-    - label: "Blog writing"
+    - label: "Search Engine Optimization (SEO)"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+      <p>Enhance your website's visibility and ranking on search engines with our comprehensive SEO strategies and techniques.</p>
       "
 
-    - label: "Multimedia production"
+    - label: "Pay-Per-Click (PPC) Advertising"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+      <p>Boost your website traffic and conversions through targeted PPC advertising campaigns designed to deliver results.</p>
       "
 
-    - label: "Content editing"
+    - label: "Social Media Marketing"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+      <p>Engage and connect with your audience on social media platforms with our effective social media marketing strategies.</p>
       "
 
-    - label: "Social media content creation"
+    - label: "Content Strategy & Creation"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+      <p>Create compelling and valuable content that resonates with your audience, driving engagement and brand loyalty.</p>
       "
 
-    - label: "Email newsletter copywriting"
+    - label: "Email Marketing"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+      <p>Leverage the power of email marketing to reach your audience with personalized messages and drive conversions.</p>
       "
-    - label: "Product descriptions"
+    - label: "Analytics & Performance Tracking"
       value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
+      <p>Monitor and analyze campaign performance with data-driven insights to refine your digital marketing strategies.</p>
       "
 
 button:
-    label: "All Services"
+    label: "Explore All Services"
     link: "/services" 
 ---

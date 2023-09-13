@@ -1,16 +1,16 @@
 ---
 #preview
-title: Pots for vases "Mimosa"
-image: /img/portfolio/2.jpg
+title: "Vase Collection"
+image: "/img/portfolio/2.jpg"
 imageWidth: 1200
 imageHeight: 1217
 category: 
-    - SMM
+    - "Social Media Marketing (SMM)"
 
 #full details
 details:
     - label: "Client"
-      value: "Envato market"
+      value: "Visa Collection"
 
     - label: "Date"
       value: "April 2022"
@@ -21,47 +21,47 @@ details:
 description0:
     enabled: 0
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        This project involved the promotion of the 'Mimosa' vase collection on Envato Market, a leading online marketplace. The challenge was to create a compelling social media marketing campaign that would attract attention to these exquisite vases.
     "
 
 description1:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Captivating Marketing Campaign"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Our social media marketing team, led by the talented Paul Trueman, crafted a captivating marketing campaign. It focused on highlighting the beauty and uniqueness of the 'Mimosa' vase collection to entice potential buyers.
     "
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/6.jpg
+        - image: "/img/portfolio/project/6.jpg"
           width: 1200
           height: 1600
-          alt: "image"
+          alt: "Vase Collection Image 1"
 
-        - image: /img/portfolio/project/7.jpg
+        - image: "/img/portfolio/project/7.jpg"
           width: 1200
           height: 800
-          alt: "image"
+          alt: "Vase Collection Image 2"
 
-        - image: /img/portfolio/project/9.jpg
+        - image: "/img/portfolio/project/9.jpg"
           width: 1200
           height: 800
-          alt: "image"
+          alt: "Vase Collection Image 3"
 
-        - image: /img/portfolio/project/10.jpg
+        - image: "/img/portfolio/project/10.jpg"
           width: 1200
           height: 800
-          alt: "image"
+          alt: "Vase Collection Image 4"
 
     cols: 2 # 2 or 3
     style: "horizontal" # horizontal or vertical
 
 description2:
     enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Engaging with the Audience"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        The campaign aimed to engage with the audience through visually appealing content. Each image showcased the vases' intricate designs and unique features, sparking curiosity and interest.
     "
 
 finalImage:
@@ -69,12 +69,12 @@ finalImage:
     image: "/img/portfolio/project/11.jpg"
     width: 1200
     height: 800
-    alt: "image"
+    alt: "Vase Collection Image 5"
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Results and Impact"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias. Amet at odit pariatur eum tenetur ratione
+        The campaign's impact was remarkable. It generated significant buzz on social media, resulting in increased engagement and inquiries about the 'Mimosa' vase collection. It's a testament to the power of effective social media marketing.
     "
 ---

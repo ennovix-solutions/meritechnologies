@@ -2,43 +2,32 @@
 #preview details
 image: "/img/icons/2.svg"
 title: "Graphics Design"
-short: "Deleniti ratione beatae"
+short: "Creative Visual Solutions"
 
 #full details
 fullImage: "/img/content/11.jpg"
-description: "At Meri, we're committed to providing our clients with the highest level of service and support. Contact us today to learn more about how we can help you achieve your content and social media goals."
+description: "At Meri, we're passionate about creating visually captivating and impactful graphic designs. Our team of creative experts is dedicated to bringing your ideas to life through stunning visuals that resonate with your audience. Whether you need eye-catching marketing materials, striking logos, or captivating illustrations, we've got you covered. We understand the importance of design in conveying your brand's identity, and we're here to help you make a lasting impression. Contact us today to explore how our graphic design services can elevate your brand."
 
-list: 
-    - label: "Blog writing"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+list:
+  - label: "Branding and Identity Design"
+    value: "Our branding and identity design services are crafted to help your business stand out. We create memorable logos, visual assets, and brand guidelines that reflect your unique identity."
 
-    - label: "Multimedia production"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Marketing Collateral Design"
+    value: "Elevate your marketing efforts with our professionally designed collateral. From brochures and flyers to banners and social media graphics, we craft materials that engage your audience."
 
-    - label: "Content editing"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Illustrations and Artwork"
+    value: "Unleash creativity with our custom illustrations and artwork. Whether for digital or print, our illustrations add a unique touch to your projects, making them visually appealing."
 
-    - label: "Social media content creation"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "UI/UX Design"
+    value: "Enhance user experiences with our UI/UX design expertise. We create user-friendly interfaces that maximize usability, ensuring your digital products leave a lasting impression."
 
-    - label: "Email newsletter copywriting"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
-    - label: "Product descriptions"
-      value: "
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam, at facilis totam in adipisci et perspiciatis est itaque libero velit eaque officia, aperiam ad ratione omnis eos ipsum, dolores quae! Nostrum quidem corporis esse doloribus inventore, odio magnam soluta fugit!</p>
-      "
+  - label: "Print and Packaging Design"
+    value: "Our print and packaging designs are tailored to make your products shine on the shelves. We understand the power of packaging in attracting customers and telling your brand's story."
+
+  - label: "Advertising Design"
+    value: "Catch the eye of your target audience with our advertising designs. We craft compelling visuals for various ad formats, helping you drive engagement and conversions."
 
 button:
-    label: "All Services"
-    link: "/services" 
+  label: "All Services"
+  link: "/services"
 ---

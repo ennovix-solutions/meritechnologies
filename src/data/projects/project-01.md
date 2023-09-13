@@ -1,57 +1,57 @@
 ---
 #preview
-title: Merch for MIL studio
-image: /img/portfolio/1.jpg
+title: "Meri Technologies Website Redesign"
+image: "/img/portfolio/1.jpg"
 imageWidth: 1200
 imageHeight: 1200
 category:
-    - Content strategy
+    - "Website Redesign"
 
 #full details
 details:
     - label: "Date"
-      value: "April 2022"
+      value: "July 2023"
 
 description0:
     enabled: 1
     content: "
-        Bacilis totam, dolorem laborum optio laudantium explicabo quia ea. Officia beatae excepturi adipisci? Nobis consequatur ullam officiis adipisci assumenda, voluptas optio, commodi, soluta itaque error consectetur cupiditate vero voluptatem architecto blanditiis quidem amet. Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam. Totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. Repudiandae obcaecati excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates.
+        Meri Technologies' website was in need of a modern refresh to reflect their evolving brand identity and showcase their expanded service offerings. We took on the challenge to redesign their website from the ground up, focusing on a user-friendly experience and cutting-edge design.
     "
 
 description1:
     enabled: 0
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Improving User Experience"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        The primary goal was to enhance the user experience. We conducted in-depth research to understand Meri's target audience and their needs. The result was a sleek and intuitive design that guides visitors to relevant services and information seamlessly.
     "
 
 
 gallery: 
     enabled: 1
     items:
-        - image: /img/portfolio/project/2.jpg
+        - image: "/img/portfolio/project/2.jpg"
           width: 992
           height: 1488
-          alt: "image"
+          alt: "Website Redesign Image 1"
 
-        - image: /img/portfolio/project/3.jpg
+        - image: "/img/portfolio/project/3.jpg"
           width: 2420
           height: 3227
-          alt: "image"
+          alt: "Website Redesign Image 2"
 
-        - image: /img/portfolio/project/4.jpg
+        - image: "/img/portfolio/project/4.jpg"
           width: 992
           height: 1558
-          alt: "image"
+          alt: "Website Redesign Image 3"
 
     cols: 3
     style: "vertical"
 
 description2:
     enabled: 1
-    heading: "Voluptatem odit ullam veritatis"
+    heading: "Optimizing Performance"
     content: "
-        Modi sint reprehenderit vitae officiis pariatur, ab debitis voluptate ea eius assumenda beatae, tempora, dolores deserunt, ipsam ipsum! Quod ipsam consequuntur distinctio velit sed ipsum quisquam, itaque placeat error non animi quam aut similique nulla ab. Quaerat dicta, dolores veritatis magnam quae aut omnis in porro.
+        Performance was a top priority. We optimized the website for speed and responsiveness, ensuring it loads quickly and looks great on all devices, from desktops to mobile phones.
     "
 
 finalImage:
@@ -59,21 +59,22 @@ finalImage:
     image: "/img/portfolio/project/5.jpg"
     width: 1200
     height: 960    
-    alt: "image"
+    alt: "Website Redesign Image 4"
 
 description3:
     enabled: 1
-    heading: "Amet at odit pariatur eum tenetur"
+    heading: "Results and Impact"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        The redesigned website has significantly improved Meri Technologies' online presence. It not only reflects their brand identity accurately but also attracts and engages visitors effectively. The performance improvements have led to reduced bounce rates and increased user engagement.
     "
 
 
 description4:
     enabled: 1
-    heading: "Hello this is very interesting"
+    heading: "Client Testimonial"
     content: "
-        Tempora quasi nihil eos minus facilis. Modi atque odit mollitia, molestias eum inventore, minima distinctio laborum asperiores odio sit fuga rem, totam error aspernatur ipsa? Officia doloribus, non perspiciatis, aspernatur a numquam pariatur reprehenderit, incidunt fugiat modi nam. <b>Repudiandae obcaecati</b> excepturi, autem dicta tempore qui consequatur quisquam architecto dolorem voluptates nihil est ex perferendis eligendi laboriosam maxime placeat doloribus et reprehenderit beatae tempora numquam harum expedita! Amet at odit pariatur eum tenetur ratione
+        'We are thrilled with the website redesign by [Your Company Name]. It perfectly aligns with our brand vision and has already started driving more traffic and inquiries. Great job!' - [Client Name], CEO of Meri Technologies
     "
+
 
 ---
