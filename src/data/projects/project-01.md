@@ -1,7 +1,7 @@
 ---
 #preview
 title: "Meri Technologies Website Redesign"
-image: "/img/portfolio/1.jpg"
+image: "https://lettery-react.netlify.app/img/blog/small/1.jpg"
 imageWidth: 1200
 imageHeight: 1200
 category:
@@ -29,17 +29,17 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: "/img/portfolio/project/2.jpg"
+        - image: "/img/hero/project/2.jpg"
           width: 992
           height: 1488
           alt: "Website Redesign Image 1"
 
-        - image: "/img/portfolio/project/3.jpg"
+        - image: "/img/hero/project/3.jpg"
           width: 2420
           height: 3227
           alt: "Website Redesign Image 2"
 
-        - image: "/img/portfolio/project/4.jpg"
+        - image: "/img/hero/project/4.jpg"
           width: 992
           height: 1558
           alt: "Website Redesign Image 3"
@@ -56,7 +56,7 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/5.jpg"
+    image: "/img/hero/project/5.jpg"
     width: 1200
     height: 960    
     alt: "Website Redesign Image 4"

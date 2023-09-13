@@ -1,8 +1,8 @@
 ---
 #preview
 title: "Vase Collection"
-image: "/img/portfolio/2.jpg"
-imageWidth: 1200
+image: "/img/hero/2.jpg"
+imageWidth: 1100
 imageHeight: 1217
 category: 
     - "Social Media Marketing (SMM)"
@@ -34,22 +34,22 @@ description1:
 gallery: 
     enabled: 1
     items:
-        - image: "/img/portfolio/project/6.jpg"
+        - image: "/img/hero/project/6.jpg"
           width: 1200
           height: 1600
           alt: "Vase Collection Image 1"
 
-        - image: "/img/portfolio/project/7.jpg"
+        - image: "/img/hero/project/7.jpg"
           width: 1200
           height: 800
           alt: "Vase Collection Image 2"
 
-        - image: "/img/portfolio/project/9.jpg"
+        - image: "/img/hero/project/9.jpg"
           width: 1200
           height: 800
           alt: "Vase Collection Image 3"
 
-        - image: "/img/portfolio/project/10.jpg"
+        - image: "/img/hero/project/10.jpg"
           width: 1200
           height: 800
           alt: "Vase Collection Image 4"
@@ -66,7 +66,7 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/11.jpg"
+    image: "/img/hero/project/11.jpg"
     width: 1200
     height: 800
     alt: "Vase Collection Image 5"

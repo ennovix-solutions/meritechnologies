@@ -73,8 +73,6 @@ const ServiceDetail = ({ postData }) => {
       </div>
       {/* service end */}
 
-      <PricingSection />
-
       <CallToActionSection />
     </Layouts>
   );

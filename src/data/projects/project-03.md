@@ -1,8 +1,7 @@
 ---
 #preview
 title: Merch for MIL studio
-type: video
-image: https://bslthemes.com/mp4/Meri/3.mp4
+image: /img/hero/2.jpg
 imageWidth: 1200
 imageHeight: 800
 category:
@@ -63,7 +62,7 @@ description2:
 
 finalImage:
     enabled: 1
-    image: "/img/portfolio/project/5.jpg"
+    image: "/img/hero/project/5.jpg"
     width: 1200
     height: 960    
     alt: "image"
