@@ -7,6 +7,7 @@ import { formInputs } from "../common/utilits";
 import Footer from "./footers/Index";
 import Header from "./headers/Index";
 import Cursor from "./cursor/Index";
+import ParticlesDesign from "../components/Particles/ParticlesDesign";
 
 const Layouts = ({
   children,
@@ -48,6 +49,7 @@ const Layouts = ({
       {!noFooter && (
         <Footer layout={footer} bg={footerBg} instagram={footerInst} />
       )}
+      <ParticlesDesign />
     </div>
   );
 };

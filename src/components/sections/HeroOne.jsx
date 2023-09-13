@@ -8,7 +8,6 @@ const HeroOne = () => {
   return (
     <header>
       <div className="mil-hero-1">
-        <ParticlesDesign />
         <div className="container">
           <div className="row mil-p-90-0 justify-content-between">
             <div className="col-md-12 col-lg-6">
