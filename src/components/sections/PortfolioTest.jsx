@@ -12,6 +12,8 @@ function PortfolioTest({ items }) {
       >
         {/* <img src={Data.bg_image} alt="image" />pb */}
       </div>
+      
+
 
       <div className="row m-0">
         {items.map((item, key) => (
@@ -31,7 +33,8 @@ function PortfolioTest({ items }) {
             >
               <div className="mil-cover mil-long"></div>
               <Link
-                href={`/portfolio/${item.id}`}
+                // href={`/portfolio/${item.id}`}
+                href="#"
                 className="mil-overlay mil-inside mil-between"
               >
                 <div className="mil-top-hidden mil-flex justify-content-between">
