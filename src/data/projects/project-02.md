@@ -1,11 +1,11 @@
 ---
 #preview
-title: "Vase Collection"
-image: "/img/hero/2.jpg"
+title: "Addis Capital Holding PLC"
+image: "/img/portfolios/addiscapital.jpg"
 imageWidth: 1100
 imageHeight: 1217
 category: 
-    - "Social Media Marketing (SMM)"
+    - "Financial Consultan"
 
 #full details
 details:

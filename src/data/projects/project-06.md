@@ -1,11 +1,12 @@
 ---
 #preview
-title: Design literature
-image: /img/portfolio/12.jpg
+title: "Keasmechiw Phones & Accessories"
+image: "/img/portfolios/phone.jpg"
 imageWidth: 1200
 imageHeight: 1798
 category:
-    - Design
+    - "Shopping & retail"
+    
 
 #full details
 details:

@@ -1,11 +1,11 @@
 ---
 #preview
-title: Minimal priject book
-image: /img/portfolio/4.jpg
+title: "Keasmechiw Computers"
+image: "/img/portfolios/computers.jpg"
 imageWidth: 1200
 imageHeight: 928
 category:
-    - Content strategy
+    - "Shopping & retail"
 
 #full details
 details:

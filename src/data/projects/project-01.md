@@ -1,11 +1,11 @@
 ---
 #preview
-title: "Meri Technologies Website Redesign"
-image: "https://lettery-react.netlify.app/img/blog/small/1.jpg"
+title: "Addis Automotive Market"
+image: "/img/portfolios/addismotive.jpg"
 imageWidth: 1200
 imageHeight: 1200
 category:
-    - "Website Redesign"
+    - "Automotive Dealership"
 
 #full details
 details:

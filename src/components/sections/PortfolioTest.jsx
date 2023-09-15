@@ -25,8 +25,11 @@ function PortfolioTest({ items }) {
             <div
               style={{
                 background: `url(${item.image})`,
-                objectFit: "cover",
-                height: 300,
+                backgroundSize:"cover",
+                backgroundRepeat:"no-repeat",
+                backgroundColor:"#283538",
+                backgroundPosition:"center",
+                height: 400,
                 borderRadius: "10px",
               }}
               className="mil-card-1 mil-complex-hover mil-icon-2-trigger mil-accent-trigger mil-pseudo-hover"

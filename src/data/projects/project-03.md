@@ -1,11 +1,12 @@
 ---
 #preview
-title: Merch for MIL studio
-image: /img/hero/2.jpg
+title: "Keasmechiw Electronics"
+image: "/img/portfolios/electronic.jpg"
 imageWidth: 1200
 imageHeight: 800
 category:
-     - Copywrite
+     - "Shopping & retail"
+    
 
 #full details
 details:

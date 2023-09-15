@@ -1,11 +1,11 @@
 ---
 #preview
-title: Hands
-image: /img/portfolio/5.jpg
+title: "Keasmechiw Machineries"
+image: "/img/portfolios/machine.jpg"
 imageWidth: 1200
 imageHeight: 1800
 category:
-    - Content strategy
+    - "Shopping & retail"
 
 #full details
 details:
