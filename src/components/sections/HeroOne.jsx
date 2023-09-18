@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Data from "@data/sections/hero-1.json";
 import Link from "next/link";
 import ParticlesDesign from "../Particles/ParticlesDesign";
+import Typewriter from "typewriter-effect";
 
 const HeroOne = () => {
   return (
@@ -12,12 +13,24 @@ const HeroOne = () => {
           <div className="row mil-p-90-0 justify-content-between">
             <div className="col-md-12 col-lg-6">
               <h1 className="mil-light mil-appearance ">
-                {Data.title.before}{" "}
-                <span className="mil-accent">{Data.title.accent}</span>{" "}
-                {Data.title.after}
+                {/* <span style={{ display: "flex" }}> */}
+                {Data.title.before} {Data.title.after} {/* </span> */}
+                <div style={{ display: "flex" }}>
+                  for your{" "}
+                  <span className="mil-accent" style={{ margin: "0 10px" }}>
+                    <Typewriter
+                      options={{
+                        strings: Data.title.words,
+                        autoStart: true,
+                        loop: true,
+                      }}
+                    />
+                  </span>
+                </div>
               </h1>
               <p className="mil-mb-30">{Data.description}</p>
               {/* buttons */}
+
               <div className="mil-appearance mil-mb-30">
                 <Link
                   href={"#"}

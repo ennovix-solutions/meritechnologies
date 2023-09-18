@@ -25,6 +25,7 @@
     "remark-html": "^15.0.2",
     "sass": "^1.49.7",
     "swiper": "^9.0.0",
-    "tsparticles": "^2.12.0"
+    "tsparticles": "^2.12.0",
+    "typewriter-effect": "^2.20.1"
   }
 }

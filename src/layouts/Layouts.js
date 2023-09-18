@@ -30,7 +30,6 @@ const Layouts = ({
   return (
     <div id="smooth-wrapper" className="mil-wrapper">
       <Cursor />
-
       {!noHeader && (
         <Header
           layout={header}
@@ -39,13 +38,11 @@ const Layouts = ({
           extraClass={extraClass}
         />
       )}
-
       <div id="swupMain" className="mil-main-transition">
         <div id="smooth-content" className="mil-content">
           {children}
         </div>
       </div>
-
       {!noFooter && (
         <Footer layout={footer} bg={footerBg} instagram={footerInst} />
       )}

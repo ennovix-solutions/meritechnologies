@@ -2,11 +2,12 @@
   "bg_image": "img/hero/1.jpg",
   "subtitle": "Welcome to Meri Technologies!",
   "title": {
-    "before": "Innovative",
-    "accent": "Tech ",
-    "after": "Solutions"
+    "before": "Creative",
+    "words": ["Graphics", "Website", "Branding", "Software"],
+    "after": "Solutions",
+    "accent": "Tech "
   },
-  "description": "Meri Technologies is your gateway to innovative technological solutions that transcend boundaries. Our team of passionate experts is committed to turning visionary ideas into groundbreaking realities. With a relentless pursuit of excellence, we're here to redefine possibilities in the tech landscape. Whether you're envisioning the next big breakthrough or aiming to streamline your current operations, Meri Technologies is your trusted partner.",
+  "description": "Meri Technologies is your gateway to innovative technological solutions that transcend boundaries. Our team of passionate experts is committed to turning visionary ideas into groundbreaking realities. With a relentless pursuit of excellence, we're here to redefine possibilities in the tech landscape.",
   "image": "img/hero/6.png",
   "partner": {
     "title": "OUR PARTNERS",
