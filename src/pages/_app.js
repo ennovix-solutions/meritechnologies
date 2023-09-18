@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import Head from "next/head";
 
 import "../styles/scss/style.scss";
@@ -6,10 +6,34 @@ import "../styles/globals.css";
 
 import { register } from "swiper/element/bundle";
 import { fetchContent } from "../lib/contentful";
+import { useRouter } from "next/router";
+import Loader from "../components/Loader";
 // register Swiper custom elements
 register();
 
 function MyApp({ Component, pageProps }) {
+  const router = useRouter();
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    setLoading(false);
+    const handleRouteChange = (url) => {
+      setLoading(true);
+    };
+
+    const handleRouteChangeComplete = () => {
+      setLoading(false);
+    };
+
+    router.events.on("routeChangeStart", handleRouteChange);
+    router.events.on("routeChangeComplete", handleRouteChangeComplete);
+
+    return () => {
+      router.events.off("routeChangeStart", handleRouteChange);
+      router.events.off("routeChangeComplete", handleRouteChangeComplete);
+    };
+  }, [router.events]);
+
   useEffect(() => {
     // You can fetch content here and do something with it
     async function fetchData() {
@@ -44,8 +68,14 @@ function MyApp({ Component, pageProps }) {
         <meta name="geo.position" content="9.1450;38.7250" />
         <meta name="ICBM" content="9.1450, 38.7250" />
         {/* seo end */}
-      </Head>
-      <Component {...pageProps} />
+      </Head>{" "}
+      {!loading ? (
+        <>
+          <Component {...pageProps} />
+        </>
+      ) : (
+        <Loader />
+      )}
     </>
   );
 }

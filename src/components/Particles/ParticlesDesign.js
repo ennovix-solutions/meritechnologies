@@ -16,6 +16,10 @@ const ParticlesDesign = () => {
 
   return (
     <Particles
+      style={{
+        position: "fixed",
+        top: 0,
+      }}
       id="tsparticles"
       init={particlesInit}
       loaded={particlesLoaded}

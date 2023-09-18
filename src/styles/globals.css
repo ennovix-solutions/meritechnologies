@@ -11,3 +11,34 @@
   text-align: center;
   padding: 20px 10%;
 }
+
+.loader-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.box {
+  animation: loader 1.25s infinite;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box > img {
+  width: 100px;
+}
+
+@keyframes loader {
+  0% {
+    rotate: 0deg;
+  }
+  70% {
+    rotate: 360deg;
+  }
+  100% {
+    rotate: 0;
+  }
+}

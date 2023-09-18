@@ -11,8 +11,8 @@ const HeroOne = () => {
       <div className="mil-hero-1">
         <div className="container">
           <div className="row mil-p-90-0 justify-content-between">
-            <ParticlesDesign />
             <div className="col-md-12 col-lg-6">
+              <ParticlesDesign />
               <h1 className="mil-light mil-appearance ">
                 {/* <span style={{ display: "flex" }}> */}
                 {Data.title.before} {Data.title.after} {/* </span> */}
@@ -45,6 +45,7 @@ const HeroOne = () => {
               </div>
               {/* buttons end */}
             </div>
+
             <div className="col-lg-6">
               <div className="mil-dots mil-appearance" />
               {/* hero image */}
