@@ -9,22 +9,22 @@
   "items": [
     {
       "image": "img/team/1.png",
-      "name": "John Doe",
-      "role": "Web Developer"
+      "name": "Khalid Hassan",
+      "role": "CEO & Founder"
     },
     {
       "image": "img/team/2.png",
-      "name": "Jane Smith",
+      "name": "Seid Yassin",
       "role": "Graphic Designer"
     },
     {
       "image": "img/team/3.png",
-      "name": "Mike Johnson",
+      "name": "Ahmed Hussien",
       "role": "Digital Marketer"
     },
     {
       "image": "img/team/4.png",
-      "name": "Sarah Davis",
+      "name": "Neima Ali",
       "role": "Brand Strategist"
     }
   ]
