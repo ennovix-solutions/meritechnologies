@@ -11,6 +11,7 @@ const HeroOne = () => {
       <div className="mil-hero-1">
         <div className="container">
           <div className="row mil-p-90-0 justify-content-between">
+            <ParticlesDesign />
             <div className="col-md-12 col-lg-6">
               <h1 className="mil-light mil-appearance ">
                 {/* <span style={{ display: "flex" }}> */}
