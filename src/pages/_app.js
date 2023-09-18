@@ -1,20 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Head from "next/head";
 
 import "../styles/scss/style.scss";
 import "../styles/globals.css";
 
 import { register } from "swiper/element/bundle";
+import { fetchContent } from "../lib/contentful";
 // register Swiper custom elements
 register();
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    // You can fetch content here and do something with it
+    async function fetchData() {
+      const content = await fetchContent();
+      console.log(content); // You can do something with the content here
+    }
+
+    fetchData();
+  }, []);
+
   return (
     <>
       <Head>
         <title>Meri Technologies - Your Partner in Digital Success</title>
         {/* seo begin */}
-        <meta charset="UTF-8" />
+        <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"

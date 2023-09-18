@@ -49,7 +49,7 @@ const Layouts = ({
       {!noFooter && (
         <Footer layout={footer} bg={footerBg} instagram={footerInst} />
       )}
-      <ParticlesDesign />
+      {/* <ParticlesDesign /> */}
     </div>
   );
 };

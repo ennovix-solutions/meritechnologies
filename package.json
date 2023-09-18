@@ -1,5 +1,5 @@
 {
-  "name": "lettery-nextjs",
+  "name": "meritechs",
   "version": "1.1.0",
   "private": true,
   "scripts": {
@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "contentful": "^10.5.2",
     "date-fns": "^2.30.0",
     "formik": "^2.4.2",
     "gray-matter": "^4.0.3",
