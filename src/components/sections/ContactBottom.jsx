@@ -16,7 +16,7 @@ function ContactBottom() {
         </div>
       )}
       <div onClick={openModal} className="bottom-icon">
-        <img src="/img/contact.gif" alt="contact" width="70" />
+        <img src="/img/direct.gif" alt="contact" width="70" />
       </div>
     </div>
   );
