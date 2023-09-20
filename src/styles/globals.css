@@ -42,3 +42,29 @@
     rotate: 0;
   }
 }
+
+.mini-contact {
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  /* top: 5px; */
+  max-width: 25%;
+  background-color: white;
+  padding: 50px 20px;
+  z-index: 100;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+.bottom-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.bottom-icon > img {
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: #ffa726;
+}

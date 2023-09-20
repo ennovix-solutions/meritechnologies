@@ -8,6 +8,8 @@ import Footer from "./footers/Index";
 import Header from "./headers/Index";
 import Cursor from "./cursor/Index";
 import ParticlesDesign from "../components/Particles/ParticlesDesign";
+import ContactBottom from "../components/sections/ContactBottom";
+import { useRouter } from "next/router";
 
 const Layouts = ({
   children,
@@ -21,6 +23,8 @@ const Layouts = ({
   invert,
   extraClass,
 }) => {
+  const pathname = useRouter().pathname;
+
   useEffect(() => {
     scrollAnimation();
     navigation();
@@ -47,6 +51,8 @@ const Layouts = ({
         <Footer layout={footer} bg={footerBg} instagram={footerInst} />
       )}
       {/* <ParticlesDesign /> */}
+
+      {pathname !== "/contact" && <ContactBottom />}
     </div>
   );
 };
