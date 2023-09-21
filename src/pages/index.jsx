@@ -18,6 +18,7 @@ import Partners from "../components/sections/Partners";
 import CallToActionSection from "../components/sections/CallToAction";
 import ProjectsSection from "../components/sections/Projects";
 import ServicesTwoSection from "../components/sections/ServicesTwo";
+import Hero from "../components/sections/Hero";
 
 const TestimonialSlider = dynamic(
   () => import("@components/sliders/Testimonial"),
@@ -28,6 +29,7 @@ const Home1 = (props) => {
   return (
     <Layouts transparent>
       <HeroOneSection />
+      {/* <Hero /> */}
       <AboutTwoSection />
       <AboutSection />
       <ServicesTwoSection services={props.services} brief={4} />

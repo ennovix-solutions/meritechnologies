@@ -29,7 +29,7 @@ const DefaultFooter = ({ bg, instagram, extraClass }) => {
             </div>
             <div className="col-lg-12 col-xl-8">
               <div className="row justify-content-xl-end">
-                <div className="col-lg-4 col-xl-3 mil-mb-30">
+                <div className="col-lg-4 col-xl-3 col-6 mil-mb-30">
                   <h6 className="mil-light mil-mb-30">Menu</h6>
                   {/* menu list */}
                   <ul>
@@ -46,7 +46,7 @@ const DefaultFooter = ({ bg, instagram, extraClass }) => {
                   </ul>
                   {/* menu list end */}
                 </div>
-                <div className="col-lg-4 col-xl-3 mil-mb-30">
+                <div className="col-lg-4 col-xl-3 col-6 mil-mb-30">
                   <h6 className="mil-light mil-mb-30">Useful links</h6>
                   {/* useful links list */}
                   <ul>

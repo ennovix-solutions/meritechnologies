@@ -10,24 +10,22 @@ const HeroOne = () => {
     <header>
       <div className="mil-hero-1">
         <div className="container">
-          <div className="row mil-p-90-0 justify-content-between">
-            <div className="col-md-12 col-lg-6">
+          <div className="row justify-content-between">
+            <div className="col-md-12 col-lg-7 mil-p-60-0">
               <ParticlesDesign />
               <h1 className="mil-light mil-appearance ">
                 {/* <span style={{ display: "flex" }}> */}
                 {Data.title.before} {Data.title.after} {/* </span> */}
-                <div style={{ display: "flex" }}>
-                  for your{" "}
-                  <span className="mil-accent" style={{ margin: "0 10px" }}>
-                    <Typewriter
-                      options={{
-                        strings: Data.title.words,
-                        autoStart: true,
-                        loop: true,
-                      }}
-                    />
-                  </span>
-                </div>
+                <span className="mil-accent">
+                  <Typewriter
+                    options={{
+                      strings: Data.title.words,
+                      autoStart: true,
+                      loop: true,
+                      wrapperClassName: "typewriter",
+                    }}
+                  />
+                </span>
               </h1>
               <p className="mil-mb-30">{Data.description}</p>
               {/* buttons */}
@@ -46,7 +44,7 @@ const HeroOne = () => {
               {/* buttons end */}
             </div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-5">
               <div className="mil-dots mil-appearance" />
               {/* hero image */}
               <img
