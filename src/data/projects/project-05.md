@@ -2,6 +2,7 @@
 #preview
 title: "Keasmechiw Machineries"
 image: "/img/portfolios/machine.jpg"
+description: "Meri Technologies' website was in need of a modern refresh to reflect their evolving brand identity and showcase their expanded service offerings."
 imageWidth: 1200
 imageHeight: 1800
 category:

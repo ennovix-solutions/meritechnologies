@@ -27,9 +27,9 @@ const TestimonialSlider = dynamic(
 
 const Home1 = (props) => {
   return (
-    <Layouts transparent>
-      <HeroOneSection />
-      {/* <Hero /> */}
+    <Layouts>
+      {/* <HeroOneSection /> */}
+      <Hero />
       <AboutTwoSection />
       <AboutSection />
       <ServicesTwoSection services={props.services} brief={4} />

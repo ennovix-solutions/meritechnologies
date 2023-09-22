@@ -22,6 +22,7 @@ const DefaultHeader = ({ transparent, invert, extraClass }) => {
       className={`mil-top-panel${transparent ? " mil-transparent-nav" : ""}${
         !invert ? " mil-invert-nav" : ""
       } mil-animated ${extraClass ? extraClass : ""}`}
+      style={{ backgroundColor: "#000d1d" }}
     >
       <div className="container">
         <Link href="/" legacyBehavior>

@@ -53,9 +53,9 @@ const ProjectsSection = ({ projects }) => {
       {/* portfolio title end */}
 
       {/* portfolio */}
-      <div className="mil-portfolio-fw mil-appearance">
+      <div className="mil-portfolio-fw ">
         <div className="row m-0">
-          <Portfolio items={projects.slice(0, 6)} />
+          <Portfolio items={projects.slice(0, 3)} />
         </div>
 
         <ModalVideo

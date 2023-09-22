@@ -2,6 +2,7 @@
 #preview
 title: Bright prints
 image: /img/portfolio/16.jpg
+description: "Meri Technologies' website was in need of a modern refresh to reflect their evolving brand identity and showcase their expanded service offerings."
 imageWidth: 1799
 imageHeight: 1200
 category: 

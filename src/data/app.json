@@ -1,6 +1,6 @@
 {
   "settings": {
-    "formspreeURL": "https://formspree.io/f/your_api_key",
+    "formspreeURL": "https://formspree.io/f/xzbljkwy",
     "mailchimp": {
       "url": "",
       "key": ""
@@ -95,7 +95,7 @@
       }
     ],
     "copy": "© 2023 MERI TECHNOLOGIES. All Rights Reserved.",
-    "dev": "Developed by <a href=\"https://ennovix.techs\" class=\"mil-hidden-trigger\">@ennovix</a>",
+    "dev": "Developed by <a href=\"https://ennovixsolutions.com\" class=\"mil-hidden-trigger\">@ennovix</a>",
     "bg_image": "/img/hero/1.jpg",
     "instagram": {
       "images": [
@@ -130,8 +130,8 @@
         {
           "icon": "img/icons/7.svg",
           "label": "Call 24/7",
-          "value": "+251920406087",
-          "link": "tel:+251920406087"
+          "value": "+251954977541",
+          "link": "tel:+251954977541"
         }
       ]
     }
@@ -153,7 +153,7 @@
       "title": "Linkedin"
     },
     {
-      "link": "tel:0920405895",
+      "link": "tel:0954977541",
       "icon": "fa fa-solid fa-phone",
       "title": "Call us"
     }

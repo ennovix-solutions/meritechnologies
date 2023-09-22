@@ -1,66 +1,72 @@
 {
-    "title": "We create the best social media<br /> marketing campaigns",
-    "button1": {
-        "label": "Portfolio",
-        "link": "/portfolio"
+  "title": "We create the best digital<br /> marketing campaigns &",
+  "words": [
+    "Graphics Design",
+    "Website Development",
+    "Full Branding",
+    "Digital Marketing"
+  ],
+  "button1": {
+    "label": "Explore",
+    "link": "/portfolio"
+  },
+  "button2": {
+    "label": "Contact Us",
+    "link": "/contact"
+  },
+  "image": {
+    "url": "img/hero/5.jpg",
+    "alt": "Image"
+  },
+  "rotateText": "Meri Technologies-Meri Tech-",
+  "lineText": [
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
     },
-    "button2": {
-        "label": "About us",
-        "link": "/about-2"
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
     },
-    "image": {
-        "url": "img/hero/5.jpg",
-        "alt": "Image"
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
     },
-    "rotateText": "Scroll down - Scroll down - ",
-    "lineText": [
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": "&#x2022;"
-        },
-        {
-            "text": "team of smm specialists",
-            "separator": ""
-        }
-    ]
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": "&#x2022;"
+    },
+    {
+      "text": "team of smm specialists",
+      "separator": ""
+    }
+  ]
 }

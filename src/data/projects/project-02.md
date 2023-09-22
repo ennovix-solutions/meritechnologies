@@ -2,6 +2,7 @@
 #preview
 title: "Addis Capital Holding PLC"
 image: "/img/portfolios/addiscapital.jpg"
+description: "Meri Technologies' website was in need of a modern refresh to reflect their evolving brand identity and showcase their expanded service offerings."
 imageWidth: 1100
 imageHeight: 1217
 category: 

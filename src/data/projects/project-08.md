@@ -3,6 +3,7 @@
 title: Orange cider
 type: video
 image: https://bslthemes.com/mp4/Meri/12.mp4
+description: "Meri Technologies' website was in need of a modern refresh to reflect their evolving brand identity and showcase their expanded service offerings."
 imageWidth: 1200
 imageHeight: 800
 category:

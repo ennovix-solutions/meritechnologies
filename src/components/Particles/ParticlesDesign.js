@@ -54,7 +54,7 @@ const ParticlesDesign = () => {
         },
         particles: {
           color: {
-            value: "#ffffff",
+            value: "rgba(255, 167, 38, 1)",
           },
           links: {
             color: "#ffffff",

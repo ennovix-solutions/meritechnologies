@@ -364,13 +364,17 @@ hero 3
 .mil-hero-3 {
   position: relative;
   overflow: hidden;
-  padding-top: 200px;
-  height: 100vh;
-  background-color: $gs-10;
-
-  @media screen and (max-width: 1440px) {
-    height: auto;
-  }
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // padding-top: 200px;
+  min-height: 100vh;
+  background-color: $dark;
+  background: url("/img/hero/10.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   @media screen and (max-width: 992px) {
     padding: 160px 0 0;
@@ -386,6 +390,10 @@ hero 3
 
   & .container {
     position: relative;
+
+    & h1 {
+      color: white;
+    }
   }
 
   & .mil-dots {
@@ -395,7 +403,7 @@ hero 3
     top: 0;
     width: 40%;
     height: 100vh;
-    background-image: radial-gradient($dt-20 15%, transparent 0);
+    // background-image: radial-gradient($dt-20 15%, transparent 0);
 
     @media screen and (max-width: 992px) {
       right: 15px;
