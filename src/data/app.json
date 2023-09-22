@@ -123,13 +123,13 @@
       "info": [
         {
           "icon": "img/icons/4.svg",
-          "label": "Support email",
+          "label": "Email Us",
           "value": "meri.technologoies@gmail.com",
           "link": "mailto:meri.technologoies@gmail.com"
         },
         {
           "icon": "img/icons/7.svg",
-          "label": "Call 24/7",
+          "label": "Call MERI",
           "value": "+251954977541",
           "link": "tel:+251954977541"
         }

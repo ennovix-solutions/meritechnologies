@@ -361,6 +361,10 @@ hero 2
 hero 3
 
 ***************************/
+.hero-container {
+  background-color: $dark;
+}
+
 .mil-hero-3 {
   position: relative;
   overflow: hidden;
@@ -371,7 +375,7 @@ hero 3
   // padding-top: 200px;
   min-height: 100vh;
   background-color: $dark;
-  background: url("/img/hero/10.jpg");
+  background: url("/img/hero/10.webp");
   background-position: right bottom;
   background-repeat: no-repeat;
   background-size: cover;

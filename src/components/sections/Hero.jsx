@@ -5,7 +5,7 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <header>
+    <header className="hero-container">
       <div className="mil-hero-3">
         <div className="mil-dots" />
 
