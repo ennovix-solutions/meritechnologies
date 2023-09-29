@@ -4,7 +4,7 @@ import Data from "@data/sections/hero-1.json";
 
 function Partners() {
   return (
-    <div className="partners col-12">
+    <div className="partners col-12" id="partners">
       <div className="mil-mb-30">
         <h4 className="mil-appearance  ">OUR VALUED PARTNERS</h4>
         <p style={{ margin: "0 10%", textAlign: "center" }}>

@@ -13,7 +13,7 @@ import TeamSection from "@components/sections/Team";
 import VideoSection from "@components/sections/Video";
 import SubscribeSection from "@components/sections/Subscribe";
 import LatestPostsSection from "@components/sections/LatestPosts";
-import AboutTwoSection from "@components/sections/AboutTwo";
+import WhatWeOffer from "@components/sections/AboutTwo";
 import Partners from "../components/sections/Partners";
 import CallToActionSection from "../components/sections/CallToAction";
 import ProjectsSection from "../components/sections/Projects";
@@ -30,7 +30,7 @@ const Home1 = (props) => {
     <Layouts>
       {/* <HeroOneSection /> */}
       <Hero />
-      <AboutTwoSection />
+      <WhatWeOffer />
       <AboutSection />
       <ServicesTwoSection services={props.services} brief={4} />
       <ProjectsSection projects={props.projects} />

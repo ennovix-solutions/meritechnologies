@@ -47,7 +47,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Meri Technologies - Your Partner in Digital Success</title>
+        <title>Meri Techs - Your Partner in Digital Success</title>
         {/* seo begin */}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />

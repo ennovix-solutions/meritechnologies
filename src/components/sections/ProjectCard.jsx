@@ -9,7 +9,7 @@ function ProjectCard({ item }) {
             {/* <div class="img-bg"></div>  */}
             <img
               className="flip-img"
-              src="https://img.freepik.com/free-vector/digital-red-circuit-lines-technology-background-design_1017-27263.jpg?w=1380&t=st=1695392319~exp=1695392919~hmac=8b2ab19c2d05a132bc5db09e2262539f07bbf9f8cd4adfcd14576d8c31d1e278"
+              src="/img/hero/10.jpg"
               //   src={item.image}
               alt={item.title}
             />

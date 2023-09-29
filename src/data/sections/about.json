@@ -11,8 +11,8 @@
     "link": "portfolio"
   },
   "image": {
-    "front": "img/content/2.jpg",
-    "back": "img/content/1.jpg",
+    "front": "img/about/digital-journey.svg",
+    "back": "img/about/what-we-offer-2.svg",
     "alt": "image",
     "badgeText": "About us - About us - about us - "
   }

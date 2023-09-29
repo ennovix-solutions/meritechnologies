@@ -48,7 +48,13 @@ const TestimonialSlider = () => {
                     <p className=" mil-mb-30">{item.text}</p>
                     <div className="mil-user-details">
                       <div className="mil-avatar mil-mr-15">
-                        <img src={item.image} alt={item.name} />
+                        <img
+                          // src={item.name}
+                          src={`https://ui-avatars.com/api/?name=${item.name
+                            .split(" ")
+                            .join("+")}&background=000d1d&color=ffa726`}
+                          alt={item.name}
+                        />
                       </div>
                       <div>
                         <h6 className="mil-mb-5">{item.name}</h6>

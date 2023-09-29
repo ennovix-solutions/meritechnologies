@@ -99,16 +99,15 @@ const DefaultFooter = ({ bg, instagram, extraClass }) => {
           </div>
         </div>
       </div>
-      <div className="mil-footer-bottom">
+      {/* <div className="mil-footer-bottom">
         <div className="container">
-          {/* copyright */}
           <p className="mil-text-sm mil-softened-60">{appData.footer.copy}</p>
           <p
             className="mil-text-sm mil-softened-60"
             dangerouslySetInnerHTML={{ __html: appData.footer.dev }}
           />
         </div>
-      </div>
+      </div> */}
     </footer>
   );
 };

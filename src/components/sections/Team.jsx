@@ -32,10 +32,8 @@ const TeamSection = () => {
                     <figure>
                       <img
                         className="flip-img"
-                        // src="https://img.freepik.com/free-vector/digital-red-circuit-lines-technology-background-design_1017-27263.jpg?w=1380&t=st=1695392319~exp=1695392919~hmac=8b2ab19c2d05a132bc5db09e2262539f07bbf9f8cd4adfcd14576d8c31d1e278"
-                        src={
-                          "https://img.freepik.com/free-photo/man-wearing-waistcoat_1368-2886.jpg?w=740&t=st=1695410780~exp=1695411380~hmac=e69dd1e98081ebb64855540c94702fbcea0f1cd72d587dc8867f17a6903c5718"
-                        }
+                        // "https://img.freepik.com/free-photo/man-wearing-waistcoat_1368-2886.jpg?w=740&t=st=1695410780~exp=1695411380~hmac=e69dd1e98081ebb64855540c94702fbcea0f1cd72d587dc8867f17a6903c5718"
+                        src={item.image}
                         alt={item.name}
                       />
                     </figure>
@@ -46,8 +44,8 @@ const TeamSection = () => {
                         style={{ fontSize: "1rem", fontWeight: 900 }}
                       >
                         <h4 className="mil-light">{item.name}</h4>
+                        <li>{item.role}</li>
                       </li>
-                      <li>{item.role}</li>
                     </ul>
                   </div>
 
@@ -56,8 +54,8 @@ const TeamSection = () => {
                       {/* <div class="img-bg"></div> */}
                       <img
                         className="flip-img"
-                        src="https://img.freepik.com/premium-photo/confident-corporate-charm-handsome-young-african-american-businessman-standing-indoors-with-his-arms-folded_590464-31666.jpg?w=360"
-                        // src={item.image}
+                        // src="https://img.freepik.com/premium-photo/confident-corporate-charm-handsome-young-african-american-businessman-standing-indoors-with-his-arms-folded_590464-31666.jpg?w=360"
+                        src={item.imageBack}
                         alt={item.name}
                         width={"100%"}
                       />

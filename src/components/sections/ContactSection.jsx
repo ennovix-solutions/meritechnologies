@@ -53,7 +53,7 @@ const ContactSection = () => {
             }
           })
           .catch((error) => {
-            status.innerHTML = "Oops! There was a problem submitting your form";
+            status.innerHTML = "There was a problem submitting your form";
           });
 
         setSubmitting(false);

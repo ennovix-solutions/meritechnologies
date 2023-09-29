@@ -74,12 +74,12 @@
     ],
     "links": [
       {
-        "label": "Terms",
-        "link": "#."
+        "label": "Partners",
+        "link": "#partners"
       },
       {
-        "label": "Careers",
-        "link": "#."
+        "label": "Location",
+        "link": "/services/#location"
       },
       {
         "label": "Privacy Policy",
@@ -114,7 +114,7 @@
   },
   "contacts": {
     "email": "meri.technologies@gmail.com",
-    "tel": "+251 920 496 9383",
+    "tel": "+251 954 977 541",
     "contact": {
       "pageImage": "img/content/5.jpg",
       "pageTitle": "Contact",

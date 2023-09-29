@@ -27,13 +27,19 @@ const About2 = (props) => {
   const Content = {
     about1: {
       subtitle: "Our Story",
-      title: "Crafting Excellence Through Words",
-      text_1:
-        "At Meri Technologies, we believe that words have the power to transform ideas into reality. Our team of dedicated professionals is committed to creating content that resonates with your audience. With precision and creativity, we deliver narratives that inspire and captivate.",
-      text_2:
-        "Our journey is guided by a passion for storytelling and a dedication to excellence. We understand the nuances of effective communication and harness the art of words to convey your message. Join us in this literary adventure, and let's craft stories that leave a lasting impact.",
-      image1: "/img/content/1.jpg",
-      image2: "/img/content/2.jpg",
+      // title: "Crafting Excellence Through Words",
+      title: "We Help You Embrace Digital The World",
+      text_1: `At Meri Technologies, our commitment goes beyond merely providing services; we are dedicated partners in your business's digital evolution. 
+        With a deep understanding of market trends and consumer behavior, we craft strategies that resonate with your audience. Our relentless pursuit
+         of perfection and our creative minds constantly pushing boundaries mean that your brand doesn't just get noticed, it becomes a phenomenon.`,
+      text_2: `
+      We 
+      don't just build websites; we create immersive digital experiences. We don't just run marketing campaigns, we tell captivating stories. When you 
+      choose Meri Technologies, you're not just hiring a digital agency, you're enlisting a team of visionaries who are as passionate about your success 
+      as you are. Let's redefine your digital presence together, making your brand not just relevant, but extraordinary.
+     `,
+      image1: "/img/about/meri-goal.svg",
+      image2: "/img/about/meri-goal.svg",
       rotateText: "About us - About us - About us - ",
     },
     about2: {
@@ -43,8 +49,8 @@ const About2 = (props) => {
         "Meri Technologies, we're on a mission to redefine the content landscape. Our team of seasoned wordsmiths is dedicated to crafting narratives that resonate, inspire, and engage. With a focus on quality and innovation, we transform ideas into compelling stories.",
       text_2:
         "Our journey is marked by a commitment to excellence and a passion for creativity. We understand that content is the heart of effective communication. Join us in exploring new horizons of storytelling, where words come alive and captivate the world.",
-      image1: "/img/content/1.jpg",
-      image2: "/img/content/2.jpg",
+      image1: "img/about/meri-goal.svg",
+      image2: "img/about/meri-goal.svg",
       rotateText: "About us - About us - About us - ",
     },
     gallery: [
@@ -121,7 +127,9 @@ const About2 = (props) => {
                         style={{ letterSpacing: "5.5px" }}
                       >
                         {/* circle text */}
-                        <textPath xlinkHref="#circlePath"></textPath>
+                        <textPath xlinkHref="#circlePath">
+                          meri technologies - meri techs -
+                        </textPath>
                       </text>
                     </g>
                   </svg>
@@ -140,14 +148,14 @@ const About2 = (props) => {
                 </div>
               </div>
               <div className="mil-image-2 mil-appearance">
-                <div className="mil-just-image">
-                  {/* front image */}
-                  <img
+                {/* <div className="mil-just-image"> */}
+                {/* front image */}
+                {/* <img
                     src={Content.about1.image2}
                     alt="img"
                     style={{ objectPosition: "right" }}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
             {/* collage end */}
@@ -184,7 +192,7 @@ const About2 = (props) => {
       {/* about end */}
 
       {/* gallery */}
-      <div className="container mil-p-0-120">
+      {/* <div className="container mil-p-0-120">
         <Gallery>
           <Swiper
             {...sliderProps.milGallerySlider}
@@ -221,7 +229,7 @@ const About2 = (props) => {
             ))}
           </Swiper>
         </Gallery>
-      </div>
+      </div> */}
       {/* gallery end */}
 
       <CountersSection />

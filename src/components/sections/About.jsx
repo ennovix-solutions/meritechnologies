@@ -81,16 +81,15 @@ const AboutSection = () => {
                 />
               </div>
             </div>
-            <div className="mil-image-2 mil-appearance">
+            {/* <div className="mil-image-2 mil-appearance">
               <div className="mil-just-image">
-                {/* front image */}
                 <img
                   src={Data.image.front}
                   alt={Data.image.alt}
                   style={{ objectPosition: "right" }}
                 />
               </div>
-            </div>
+            </div> */}
           </div>
           {/* collage end */}
         </div>
