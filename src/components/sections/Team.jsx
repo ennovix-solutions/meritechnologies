@@ -40,7 +40,7 @@ const TeamSection = () => {
 
                     <ul className="flip-ul ">
                       <li
-                        className="flip-li"
+                        className="flip-li flip-li-bg"
                         style={{ fontSize: "1rem", fontWeight: 900 }}
                       >
                         <h4 className="mil-light">{item.name}</h4>

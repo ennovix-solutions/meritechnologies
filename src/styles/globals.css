@@ -260,13 +260,17 @@ figure,
   width: 100%;
   margin-top: 12px;
   padding-bottom: 12px;
-  border-radius: 24px;
 
-  background: rgba(0, 0, 0, 0.7);
   font-size: 14px;
   text-align: center;
 
   position: relative;
+}
+
+.flip-li-bg {
+  border-radius: 24px;
+
+  background: rgba(0, 0, 0, 0.7);
 }
 
 li:nth-child(2n) {
