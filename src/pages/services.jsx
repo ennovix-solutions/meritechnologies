@@ -45,7 +45,7 @@ const Services = (props) => {
                     className="mil-service-card mil-appearance mil-icon-2-trigger mil-mb-30"
                     style={{
                       // background: `url(${"/img/hero/1.jpg"})`,
-                      background: `url(${"https://img.freepik.com/free-vector/gradient-geometric-shapes-dark-background-concept_23-2148437738.jpg?w=996&t=st=1695414912~exp=1695415512~hmac=4d1d63ff5db63162450f019acb1e0406db61b278976661a139dfdbdae5f20cdf"})`,
+                      background: `url(${"/img/servicebg.webp"})`,
                     }}
                   >
                     <div className="mil-card-content">
