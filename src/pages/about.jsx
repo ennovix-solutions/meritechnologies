@@ -1,8 +1,6 @@
 import { useEffect } from "react";
 import Layouts from "@layouts/Layouts";
 
-import { getSortedPostsData } from "@library/posts";
-
 import PageBanner from "@components/PageBanner";
 import CallToActionSection from "@components/sections/CallToAction";
 import CountersSection from "@components/sections/Counters";
@@ -107,7 +105,7 @@ const About = (props) => {
       {/* about end */}
 
       {/* about */}
-      <div className="container mil-content-frame mil-appearance mil-p-0-90">
+      <div className="container mil-content-frame mil-appearance ">
         <div className="row justify-content-between">
           <div className="col-lg-5">
             <span className="mil-link mil-softened-60 mil-appearance mil-mb-30">
@@ -179,13 +177,3 @@ const About = (props) => {
   );
 };
 export default About;
-
-export async function getStaticProps() {
-  const allPosts = getSortedPostsData();
-
-  return {
-    props: {
-      posts: allPosts,
-    },
-  };
-}

@@ -101,6 +101,7 @@
 .flip-portrait {
   width: 310px;
   height: 500px;
+  margin-bottom: 20px;
 }
 
 .flip-card-container * {

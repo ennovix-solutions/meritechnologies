@@ -9,7 +9,7 @@ function ProjectCard({ item }) {
             {/* <div class="img-bg"></div>  */}
             <img
               className="flip-img"
-              src="/img/hero/10.jpg"
+              src="/img/hero/bg.svg"
               //   src={item.image}
               alt={item.title}
             />
