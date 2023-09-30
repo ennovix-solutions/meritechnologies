@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import Head from "next/head";
 
+import "react-toastify/dist/ReactToastify.css";
+
 import "../styles/scss/style.scss";
 import "../styles/globals.css";
 
@@ -10,6 +12,15 @@ import { useRouter } from "next/router";
 import Loader from "../components/Loader";
 // register Swiper custom elements
 register();
+
+import dynamic from "next/dynamic";
+
+const ToastContainer = dynamic(
+  () => import("react-toastify").then((module) => module.ToastContainer),
+  {
+    ssr: false,
+  }
+);
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -71,6 +82,7 @@ function MyApp({ Component, pageProps }) {
       </Head>{" "}
       {!loading ? (
         <>
+          <ToastContainer />
           <Component {...pageProps} />
         </>
       ) : (

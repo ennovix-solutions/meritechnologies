@@ -7,21 +7,21 @@ const AboutSection = () => {
       <div className="row justify-content-between align-items-center">
         <div className="mil-12 col-xl-5 mil-mb-120">
           <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30">
-            {Data.subtitle}
+            {Data.about1.subtitle}
           </h3>
-          <h3 className="mil-appearance mil-mb-30">{Data.title}</h3>
-          <p className="mil-appearance mil-mb-30">{Data.description}</p>
+          <h3 className="mil-appearance mil-mb-30">{Data.about1.title}</h3>
+          <p className="mil-appearance mil-mb-30">{Data.about1.description}</p>
 
           {/* buttons */}
           <div className="mil-appearance">
             <Link
-              href={Data.button1.link}
+              href={Data.about1.button1.link}
               className="mil-button mil-button-lg mil-scale-down-trigger mil-buttons-space"
             >
-              <span>{Data.button1.label}</span>
+              <span>{Data.about1.button1.label}</span>
             </Link>
-            <Link href={Data.button2.link} className="mil-link-hover">
-              {Data.button2.label}
+            <Link href={Data.about1.button2.link} className="mil-link-hover">
+              {Data.about1.button2.label}
             </Link>
           </div>
           {/* buttons end */}
@@ -62,7 +62,7 @@ const AboutSection = () => {
                     >
                       {/* circle text */}
                       <textPath xlinkHref="#circlePath">
-                        {Data.image.badgeText}
+                        {Data.about1.image.badgeText}
                       </textPath>
                     </text>
                   </g>
@@ -73,8 +73,8 @@ const AboutSection = () => {
               <div className="mil-just-image mil-image-square">
                 {/* back image */}
                 <img
-                  src={Data.image.back}
-                  alt={Data.image.alt}
+                  src={Data.about1.image.back}
+                  alt={Data.about1.image.alt}
                   className="mil-scale-img"
                   data-value-1="1"
                   data-value-2="1.2"
@@ -84,8 +84,8 @@ const AboutSection = () => {
             {/* <div className="mil-image-2 mil-appearance">
               <div className="mil-just-image">
                 <img
-                  src={Data.image.front}
-                  alt={Data.image.alt}
+                  src={Data.about1.image.front}
+                  alt={Data.about1.image.alt}
                   style={{ objectPosition: "right" }}
                 />
               </div>

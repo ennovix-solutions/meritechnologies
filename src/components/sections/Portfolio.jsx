@@ -1,5 +1,3 @@
-import Data from "@data/sections/services.json";
-import Link from "next/link";
 import ProjectCard from "./ProjectCard";
 
 function Portfolio({ items }) {

@@ -1,4 +1,4 @@
-import Data from "@data/sections/hero-2.json";
+import Data from "@data/sections/hero.json";
 import Link from "next/link";
 import ParticlesDesign from "../Particles/ParticlesDesign";
 import Typewriter from "typewriter-effect";

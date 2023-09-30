@@ -1,0 +1,48 @@
+{
+  "subtitle": "Our Trusted Partners",
+  "title": "Collaborating with Industry Leaders",
+  "description": "At Meri Technologies, we believe in the power of collaboration. We have partnered with industry leaders to deliver innovative solutions and drive digital transformation. Together, we are shaping the future of technology.",
+  "more": { "label": "Become a partner", "link": "/contact" },
+  "partners": [
+    {
+      "image": "img/partners/keasmechiw.png",
+      "link": "#.",
+      "alt": "keasmechiw"
+    },
+    {
+      "image": "img/partners/abay-mart.png",
+      "link": "#.",
+      "alt": "Abay Mart"
+    },
+    {
+      "image": "img/partners/lucy-hospital.png",
+      "link": "#.",
+      "alt": "lucy multi special center"
+    },
+    {
+      "image": "img/partners/telebirr-meri.png",
+      "link": "#.",
+      "alt": "Telebirr Meri Tech"
+    },
+    {
+      "image": "img/partners/keasmechiw.png",
+      "link": "#.",
+      "alt": "keasmechiw"
+    },
+    {
+      "image": "img/partners/abay-mart.png",
+      "link": "#.",
+      "alt": "Abay Mart"
+    },
+    {
+      "image": "img/partners/lucy-hospital.png",
+      "link": "#.",
+      "alt": "lucy multi special center"
+    },
+    {
+      "image": "img/partners/telebirr-meri.png",
+      "link": "#.",
+      "alt": "Telebirr Meri Tech"
+    }
+  ]
+}

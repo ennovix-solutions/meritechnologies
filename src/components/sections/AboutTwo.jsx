@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import Data from "@data/sections/about-2.json";
+import Data from "@data/sections/about.json";
 import { countersAnimation } from "@/src/common/counters";
 
 const AboutTwoSection = () => {
@@ -12,17 +12,17 @@ const AboutTwoSection = () => {
       <div className="row flex-sm-row-reverse justify-content-between align-items-center">
         <div className="mil-12 col-xl-6 mil-mb-120">
           <h3 className="mil-link mil-softened-60 mil-appearance mil-mb-30">
-            {Data.subtitle}
+            {Data.about2.subtitle}
           </h3>
           <h3
             className="mil-appearance mil-mb-30"
-            dangerouslySetInnerHTML={{ __html: Data.title }}
+            dangerouslySetInnerHTML={{ __html: Data.about2.title }}
           />
-          <p className="mil-appearance mil-mb-30">{Data.description}</p>
+          <p className="mil-appearance mil-mb-30">{Data.about2.description}</p>
 
           {/* counters */}
           <div className="mil-flex">
-            {Data.numbers.map((item, key) => (
+            {Data.about2.numbers.map((item, key) => (
               <div key={`number-item-${key}`} className="mil-mr-30">
                 <p className="mil-link mil-softened-60 mil-appearance">
                   {item.label}
@@ -43,8 +43,8 @@ const AboutTwoSection = () => {
           <div className="mil-appearance">
             <div className="mil-just-image mil-image-square">
               <img
-                src={Data.image.url}
-                alt={Data.image.alt}
+                src={Data.about2.image.url}
+                alt={Data.about2.image.alt}
                 className="mil-scale-img"
                 data-value-1="1"
                 data-value-2="1.2"

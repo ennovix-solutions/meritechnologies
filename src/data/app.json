@@ -1,6 +1,6 @@
 {
   "settings": {
-    "formspreeURL": "https://formspree.io/f/xzbljkwy",
+    "formspreeURL": "https://formspree.io/f/moqopeqw",
     "mailchimp": {
       "url": "",
       "key": ""
@@ -66,10 +66,6 @@
       {
         "label": "Services",
         "link": "services"
-      },
-      {
-        "label": "Contact",
-        "link": "contact"
       }
     ],
     "links": [
@@ -86,12 +82,8 @@
         "link": "#."
       },
       {
-        "label": "Help Center",
-        "link": "#."
-      },
-      {
-        "label": "Sitemap",
-        "link": "#."
+        "label": "Contact",
+        "link": "contact"
       }
     ],
     "copy": "© 2023 MERI TECHNOLOGIES. All Rights Reserved.",
@@ -113,7 +105,7 @@
     }
   },
   "contacts": {
-    "email": "meri.technologies@gmail.com",
+    "email": "meritech.et@gmail.com",
     "tel": "+251 954 977 541",
     "contact": {
       "pageImage": "img/content/5.jpg",
@@ -124,8 +116,8 @@
         {
           "icon": "img/icons/4.svg",
           "label": "Email Us",
-          "value": "meri.technologoies@gmail.com",
-          "link": "mailto:meri.technologoies@gmail.com"
+          "value": "meritech.et@gmail.com",
+          "link": "mailto:meritech.et@gmail.com"
         },
         {
           "icon": "img/icons/7.svg",
@@ -138,7 +130,7 @@
   },
   "social": [
     {
-      "link": "https://facebook.com",
+      "link": "https://www.facebook.com/profile.php?id=61550700826341",
       "icon": "fab fa-facebook-f",
       "title": "Facebook"
     },
@@ -148,7 +140,7 @@
       "title": "Insagram"
     },
     {
-      "link": "https://linkedin.com",
+      "link": "https://www.linkedin.com/company/meri-technoligies/",
       "icon": "fab fa-linkedin-in",
       "title": "Linkedin"
     },

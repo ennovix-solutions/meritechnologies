@@ -4,7 +4,6 @@ import Layouts from "@layouts/Layouts";
 import { getSortedServicesData } from "@library/services";
 
 import CallToActionSection from "@components/sections/CallToAction";
-import PricingSection from "@components/sections/Pricing";
 
 import Link from "next/link";
 

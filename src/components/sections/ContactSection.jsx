@@ -1,9 +1,18 @@
 import { Formik } from "formik";
 import appData from "@data/app.json";
 import Link from "next/link";
+import { toast } from "react-toastify";
 
 const ContactSection = () => {
   const Content = appData.contacts.contact;
+  const msgStatus = {
+    error: "There was a problem submitting your form",
+    success: "Thanks for your submission!",
+  };
+
+  function makeToast(msg, type = "error") {
+    toast(msg, { type: type });
+  }
 
   return (
     <Formik
@@ -37,7 +46,8 @@ const ContactSection = () => {
         })
           .then((response) => {
             if (response.ok) {
-              status.innerHTML = "Thanks for your submission!";
+              status.innerHTML = msgStatus.success;
+              makeToast(msgStatus.success, "success");
               form.reset();
             } else {
               response.json().then((data) => {
@@ -46,14 +56,14 @@ const ContactSection = () => {
                     .map((error) => error["message"])
                     .join(", ");
                 } else {
-                  status.innerHTML =
-                    "Oops! There was a problem submitting your form";
+                  status.innerHTML = "Oops! " + msgStatus.error;
                 }
               });
             }
           })
           .catch((error) => {
-            status.innerHTML = "There was a problem submitting your form";
+            status.innerHTML = msgStatus.error;
+            makeToast(msgStatus.error);
           });
 
         setSubmitting(false);
@@ -127,8 +137,8 @@ const ContactSection = () => {
             </div>
             <div className="col-lg-6">
               <p className="mil-text-sm mil-mb-30">
-                *We promise not to disclose your personal information to third
-                parties.
+                {/* *We promise not to disclose your personal information to third
+                parties. */}
               </p>
             </div>
             <div className="col-lg-6">

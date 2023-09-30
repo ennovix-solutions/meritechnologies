@@ -1,19 +1,80 @@
 {
-  "subtitle": "Our Journey",
-  "title": "Transforming Visions into Reality",
-  "description": "At Meri Technologies, our journey begins with a passion for technology and innovation. We believe in the power of ideas and their potential to reshape industries. Our mission is to bridge the gap between imagination and creation, turning concepts into impactful solutions. Join us on this exciting adventure as we redefine what's possible in the world of tech.",
-  "button1": {
-    "label": "More about us",
-    "link": "about"
+  "about1": {
+    "subtitle": "Our Journey",
+    "title": "Transforming Visions into Reality",
+    "description": "At Meri Technologies, our journey begins with a passion for technology and innovation. We believe in the power of ideas and their potential to reshape industries. Our mission is to bridge the gap between imagination and creation, turning concepts into impactful solutions. Join us on this exciting adventure as we redefine what's possible in the world of tech.",
+    "button1": {
+      "label": "More about us",
+      "link": "about"
+    },
+    "button2": {
+      "label": "View portfolio",
+      "link": "portfolio"
+    },
+    "image": {
+      "front": "img/about/digital-journey.svg",
+      "back": "img/about/what-we-offer-2.svg",
+      "alt": "image",
+      "badgeText": "About us - About us - about us - "
+    }
   },
-  "button2": {
-    "label": "View portfolio",
-    "link": "portfolio"
+  "about2": {
+    "subtitle": "What We Offer",
+    "title": "Unlocking Digital Potential<br/>with Creative Expertise",
+    "description": "Meri Technologies specializes in transforming brands through a range of creative solutions. From branding and advertising to website and app development, as well as video production, we offer comprehensive services to enhance your digital presence. Our team of experts combines creativity and technology to deliver impactful results that elevate your brand and captivate your audience. Experience the power of Meri Technologies as we unlock your brand's digital potential.",
+    "image": {
+      "url": "img/about/what-we-offer.svg",
+      "alt": "image"
+    },
+    "numbers": [
+      {
+        "label": "Projects Completed",
+        "value": "25"
+      },
+      {
+        "label": "Happy Clients",
+        "value": "15"
+      }
+    ]
   },
-  "image": {
-    "front": "img/about/digital-journey.svg",
-    "back": "img/about/what-we-offer-2.svg",
-    "alt": "image",
-    "badgeText": "About us - About us - about us - "
-  }
+  "about3": {
+    "subtitle": "Our Story",
+    "title": "We Help You Embrace Digital The World",
+    "text_1": "At Meri Technologies, our commitment goes beyond merely providing services; we are dedicated partners in your business's digital evolution.  With a deep understanding of market trends and consumer behavior, we craft strategies that resonate with your audience. Our relentless pursuit  of perfection and our creative minds constantly pushing boundaries mean that your brand doesn't just get noticed, it becomes a phenomenon.",
+    "text_2": " We  don't just build websites; we create immersive digital experiences. We don't just run marketing campaigns, we tell captivating stories. When you  choose Meri Technologies, you're not just hiring a digital agency, you're enlisting a team of visionaries who are as passionate about your success  as you are. Let's redefine your digital presence together, making your brand not just relevant, but extraordinary.",
+    "image1": "/img/about/meri-goal.svg",
+    "image2": "/img/about/meri-goal.svg",
+    "rotateText": "About us - About us - About us - "
+  },
+  "about4": {
+    "  subtitle": "Our Story",
+    "  title": "Elevating Your Content Experience",
+    "  text_1": "Meri Technologies, we're on a mission to redefine the content landscape. Our team of seasoned wordsmiths is dedicated to crafting narratives that resonate, inspire, and engage. With a focus on quality and innovation, we transform ideas into compelling stories.",
+    "  text_2": "Our journey is marked by a commitment to excellence and a passion for creativity. We understand that content is the heart of effective communication. Join us in exploring new horizons of storytelling, where words come alive and captivate the world.",
+    "  image1": "img/about/meri-goal.svg",
+    "  image2": "img/about/meri-goal.svg",
+    "  rotateText": "About us - About us - About us - "
+  },
+  "gallery": [
+    {
+      "url": "/img/content/8.jpg",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "url": "/img/content/9.jpg",
+      "width": 1920,
+      "height": 1280
+    },
+    {
+      "url": "/img/content/10.jpg",
+      "width": 1000,
+      "height": 1500
+    },
+    {
+      "url": "/img/content/11.jpg",
+      "width": 1920,
+      "height": 1440
+    }
+  ]
 }

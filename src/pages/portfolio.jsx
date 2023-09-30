@@ -7,7 +7,6 @@ import { getSortedProjectsData } from "@library/projects";
 import "photoswipe/dist/photoswipe.css";
 import "react-modal-video/css/modal-video.css";
 
-import { Gallery, Item } from "react-photoswipe-gallery";
 import ModalVideo from "react-modal-video";
 import Data from "@data/sections/projects.json";
 
