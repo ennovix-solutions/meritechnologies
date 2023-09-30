@@ -172,7 +172,7 @@ const About = (props) => {
 
       <CountersSection />
       <CallToActionSection />
-      <TeamSection />
+      {/* <TeamSection /> */}
     </Layouts>
   );
 };

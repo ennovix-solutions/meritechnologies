@@ -28,7 +28,7 @@ const Home1 = (props) => {
       <ServicesSection services={props.services} brief={4} />
       <ProjectsSection projects={props.projects} />
       <Partners />
-      <TeamSection />
+      {/* <TeamSection /> */}
       {/* <VideoSection /> */}
       <TestimonialSlider />
       {/* <LatestPostsSection posts={props.posts} /> */}
