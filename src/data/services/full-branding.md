@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/img/icons/2.svg"
+image: "/img/icons/6.svg"
 title: "Full Branding"
 short: "Comprehensive Branding Solutions"
 
@@ -31,4 +31,3 @@ button:
   label: "All Services"
   link: "/services"
 ---
-

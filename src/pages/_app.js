@@ -79,7 +79,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="geo.position" content="9.1450;38.7250" />
         <meta name="ICBM" content="9.1450, 38.7250" />
         {/* seo end */}
-      </Head>{" "}
+      </Head>
       {!loading ? (
         <>
           <ToastContainer />

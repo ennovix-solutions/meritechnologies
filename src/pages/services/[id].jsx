@@ -10,7 +10,6 @@ import Link from "next/link";
 import { getAllServicesIds, getServiceData } from "@library/services";
 
 import CallToActionSection from "@components/sections/CallToAction";
-import PricingSection from "@components/sections/Pricing";
 
 const ServiceDetail = ({ postData }) => {
   const Content = {
