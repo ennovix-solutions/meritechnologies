@@ -1,1 +1,0 @@
-self.__REACT_LOADABLE_MANIFEST="{\"_app.js -> react-toastify\":{\"id\":\"_app.js -> react-toastify\",\"files\":[\"static/chunks/node_modules_react-toastify_dist_react-toastify_esm_mjs.js\"]}}"
