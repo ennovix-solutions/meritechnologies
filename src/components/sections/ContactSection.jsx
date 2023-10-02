@@ -3,7 +3,7 @@ import appData from "@data/app.json";
 import Link from "next/link";
 import { toast } from "react-toastify";
 
-const ContactSection = () => {
+const ContactSection = ({ popup = false }) => {
   const Content = appData.contacts.contact;
   const msgStatus = {
     error: "There was a problem submitting your form",
@@ -83,78 +83,96 @@ const ContactSection = () => {
           onSubmit={handleSubmit}
           id="contactForm"
           action={appData.settings.formspreeURL}
+          class="contact"
         >
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              {/* email field */}
-              <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
-                <input
-                  className="mil-link"
-                  type="text"
-                  name="name"
-                  required="required"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  value={values.name}
-                />
-                <label className="mil-link">Name</label>
-                <span></span>
-                <em>{errors.name && touched.name && errors.name}</em>
+          <div class="contact-header"></div>
+          <div class="contact-body">
+            {!popup && (
+              <div class="contact-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>US</span>
+                </div>
+              </div>
+            )}
+
+            <div class="contact-body-item">
+              <div class="app-form">
+                {/* name */}
+                <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
+                  <input
+                    className="mil-link"
+                    type="text"
+                    name="name"
+                    required="required"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    value={values.name}
+                  />
+                  <label className="mil-link">Name</label>
+                  <span></span>
+                  <em
+                    style={{ marginLeft: "20px", textTransform: "lowercase" }}
+                  >
+                    {errors.name && touched.name && errors.name}
+                  </em>
+                </div>
+                {/* email */}
+                <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
+                  <input
+                    className="mil-link"
+                    type="email"
+                    name="email"
+                    required="required"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    value={values.email}
+                  />
+                  <label className="mil-link">Email*</label>
+                  <span></span>
+                  <em
+                    style={{ marginLeft: "20px", textTransform: "lowercase" }}
+                  >
+                    {errors.email && touched.email && errors.email}
+                  </em>
+                </div>
+
+                {/* message area */}
+                <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
+                  <textarea
+                    name="message"
+                    className="mil-link"
+                    required="required"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    value={values.message}
+                  />
+                  <label className="mil-link">Message</label>
+                  <span></span>
+                  <em
+                    style={{ marginLeft: "20px", textTransform: "lowercase" }}
+                  >
+                    {errors.message && touched.message && errors.message}
+                  </em>
+                </div>
+
+                <div class="app-form-group buttons">
+                  <button
+                    type="submit"
+                    className="mil-float-right mil-button mil-button-lg mil-scale-down-trigger mil-dark-trigger mil-mb-30"
+                    disabled={isSubmitting}
+                  >
+                    <span>send</span>
+                  </button>
+                </div>
+                <div className="form-status" id="contactFormStatus" />
               </div>
             </div>
-            <div className="col-lg-6">
-              {/* email field */}
-              <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
-                <input
-                  className="mil-link"
-                  type="email"
-                  name="email"
-                  required="required"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  value={values.email}
-                />
-                <label className="mil-link">Email*</label>
-                <span></span>
-                <em>{errors.email && touched.email && errors.email}</em>
-              </div>
-            </div>
-            <div className="col-lg-12">
-              {/* email field */}
-              <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
-                <textarea
-                  name="message"
-                  className="mil-link"
-                  required="required"
-                  onChange={handleChange}
-                  onBlur={handleBlur}
-                  value={values.message}
-                />
-                <label className="mil-link">Message</label>
-                <span></span>
-                <em>{errors.message && touched.message && errors.message}</em>
-              </div>
-            </div>
-            <div className="col-lg-6">
-              <p className="mil-text-sm mil-mb-30">
-                {/* *We promise not to disclose your personal information to third
-                parties. */}
-              </p>
-            </div>
-            <div className="col-lg-6">
-              <button
-                type="submit"
-                className="mil-float-right mil-button mil-button-lg mil-scale-down-trigger mil-dark-trigger mil-mb-30"
-                disabled={isSubmitting}
-              >
-                <span>send</span>
-              </button>
-            </div>
-            <div className="form-status" id="contactFormStatus" />
           </div>
         </form>
       )}
     </Formik>
   );
 };
+
 export default ContactSection;

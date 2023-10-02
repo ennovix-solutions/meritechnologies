@@ -3,7 +3,6 @@ import Layouts from "@/src/layouts/Layouts";
 import appData from "@data/app.json";
 import Link from "next/link";
 import ContactSection from "../components/sections/ContactSection";
-import Contact1 from "../components/sections/Contact1";
 
 const Contact = () => {
   const Content = appData.contacts.contact;
@@ -41,7 +40,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-        <Contact1 />
+        <ContactSection />
         {/* <ContactSection /> */}
       </div>
       {/* contact end */}
