@@ -68,7 +68,7 @@ const Portfolio = ({ projects }) => {
 
       {/* portfolio */}
       <div className="mil-portfolio-fw mil-appearance">
-        <PortfolioSection items={projects} />
+        <PortfolioSection items={projects} isPortfolioPage={true} />
       </div>
       {/* portfolio end */}
 

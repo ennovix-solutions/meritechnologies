@@ -203,7 +203,8 @@ figure,
   right: 12px;
 
   color: var(--white-1);
-  background: hsla(var(--hue), 25%, 10%, 0.5);
+  background: #000d1d;
+  border-radius: 10px;
 }
 
 /* .img-bg */
@@ -482,7 +483,7 @@ button:focus + .design-container {
   padding: 50px;
 }
 
-.contact-body-item.left {
+.contact-body-item.portfolio-left {
   display: flex;
   flex-direction: column;
 }
@@ -590,7 +591,7 @@ button:focus + .design-container {
     flex-direction: column;
   }
 
-  .contact-body-item.left {
+  .contact-body-item.portfolio-left {
     margin-bottom: 30px;
   }
 
@@ -615,4 +616,112 @@ button:focus + .design-container {
   .contact-body-item {
     padding: 0;
   }
+}
+
+/* portfolio page list */
+
+.portfolio-container {
+  margin-bottom: 20px;
+  display: flex;
+  height: 320px;
+  margin: 20px auto;
+  width: 640px;
+}
+
+@media (max-width: 767px) {
+  .portfolio-container {
+    flex-direction: column;
+    height: 630px;
+    width: 320px;
+  }
+}
+.portfolio-left {
+  background: white;
+  height: calc(100% - 40px);
+  position: relative;
+  width: 50%;
+}
+@media (max-width: 767px) {
+  .portfolio-left {
+    height: 100%;
+    left: 20px;
+    width: calc(100% - 40px);
+    max-height: 270px;
+  }
+}
+.portfolio-title {
+  font-weight: 900;
+  margin: 50px 40px 40px;
+}
+.portfolio-desc {
+  color: #999;
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 40px;
+}
+.portfolio-right {
+  background: #ffa726;
+  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
+  color: #f1f1f2;
+  position: relative;
+  width: 50%;
+}
+
+.portfolio-right > img {
+  width: 100%;
+}
+
+@media (max-width: 767px) {
+  .portfolio-right {
+    flex-shrink: 0;
+    height: 100%;
+    width: 100%;
+    max-height: 350px;
+  }
+}
+svg {
+  position: absolute;
+  width: 320px;
+}
+path {
+  fill: none;
+  stroke: url(#linearGradient);
+  stroke-width: 4;
+  stroke-dasharray: 240 1386;
+}
+.form {
+  margin: 40px;
+  position: absolute;
+}
+label {
+  color: #c2c2c5;
+  display: block;
+  font-size: 14px;
+  height: 16px;
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+input {
+  background: transparent;
+  border: 0;
+  color: #f2f2f2;
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  outline: none !important;
+  width: 100%;
+}
+input::-moz-focus-inner {
+  border: 0;
+}
+#submit {
+  color: #707075;
+  margin-top: 40px;
+  transition: color 300ms;
+}
+#submit:focus {
+  color: #f2f2f2;
+}
+#submit:active {
+  color: #d0d0d2;
 }
