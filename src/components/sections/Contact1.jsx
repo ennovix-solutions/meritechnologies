@@ -88,13 +88,15 @@ const Contact1 = ({ popup = false }) => {
         >
           <div class="contact-header"></div>
           <div class="contact-body">
-            {/* <div class="contact-body-item left">
-              <div class="app-title">
-                <span>CONTACT</span>
-                <span>US</span>
+            {!popup && (
+              <div class="contact-body-item left">
+                <div class="app-title">
+                  <span>CONTACT</span>
+                  <span>US</span>
+                </div>
+                <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
               </div>
-              <div class="app-contact">CONTACT INFO : +62 81 314 928 595</div>
-            </div> */}
+            )}
 
             <div class="contact-body-item">
               <div class="app-form">
