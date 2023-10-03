@@ -26,8 +26,7 @@ function CookieConsent() {
 
   const handleDeclineClick = () => {
     //  ask him the next time he vistis
-    document.cookie =
-      "cookieBy=meritechnologiesDECLINED; max-age=" + 60 * 60 * 24 * 30;
+    document.cookie = "cookieBy=meritechnologiesDECLINED; max-age=" + 60 * 30;
     setShowCookieBox(false);
   };
 
