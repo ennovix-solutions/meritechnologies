@@ -14,6 +14,7 @@ import Loader from "../components/Loader";
 register();
 
 import dynamic from "next/dynamic";
+import CookieConsent from "../components/sections/CookieConsent";
 
 const ToastContainer = dynamic(
   () => import("react-toastify").then((module) => module.ToastContainer),
@@ -83,6 +84,7 @@ function MyApp({ Component, pageProps }) {
       {!loading ? (
         <>
           <ToastContainer />
+          <CookieConsent />
           <Component {...pageProps} />
         </>
       ) : (
