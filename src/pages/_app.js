@@ -50,7 +50,6 @@ function MyApp({ Component, pageProps }) {
     // You can fetch content here and do something with it
     async function fetchData() {
       const content = await fetchContent();
-      console.log(content); // You can do something with the content here
     }
 
     fetchData();
