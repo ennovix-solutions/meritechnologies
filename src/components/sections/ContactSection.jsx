@@ -83,21 +83,21 @@ const ContactSection = ({ popup = false }) => {
           onSubmit={handleSubmit}
           id="contactForm"
           action={appData.settings.formspreeURL}
-          class="contact"
+          className="contact"
         >
-          <div class="contact-header"></div>
-          <div class="contact-body">
+          <div className="contact-header"></div>
+          <div className="contact-body">
             {!popup && (
-              <div class="contact-body-item left">
-                <div class="app-title">
+              <div className="contact-body-item left">
+                <div className="app-title">
                   <span>CONTACT</span>
                   <span>US</span>
                 </div>
               </div>
             )}
 
-            <div class="contact-body-item">
-              <div class="app-form">
+            <div className="contact-body-item">
+              <div className="app-form">
                 {/* name */}
                 <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
                   <input
@@ -156,7 +156,7 @@ const ContactSection = ({ popup = false }) => {
                   </em>
                 </div>
 
-                <div class="app-form-group buttons">
+                <div className="app-form-group buttons">
                   <button
                     type="submit"
                     className="mil-float-right mil-button mil-button-lg mil-scale-down-trigger mil-dark-trigger mil-mb-30"

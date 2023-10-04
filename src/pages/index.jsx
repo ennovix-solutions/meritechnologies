@@ -19,7 +19,7 @@ const TestimonialSlider = dynamic(
   { ssr: false }
 );
 
-const Home1 = (props) => {
+const Home = (props) => {
   return (
     <Layouts>
       <Hero />
@@ -36,7 +36,7 @@ const Home1 = (props) => {
     </Layouts>
   );
 };
-export default Home1;
+export default Home;
 
 export async function getStaticProps() {
   const allServices = getSortedServicesData();

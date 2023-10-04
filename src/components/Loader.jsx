@@ -4,8 +4,8 @@ import appData from "@data/app.json";
 
 function Loader() {
   return (
-    <div class="loader-container">
-      <div class="box">
+    <div className="loader-container">
+      <div className="box">
         <img src={appData.header.logo.image.light} alt="meritechs" />
       </div>
     </div>

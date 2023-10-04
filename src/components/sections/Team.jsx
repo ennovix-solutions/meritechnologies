@@ -26,9 +26,9 @@ const TeamSection = () => {
           {Data.items.map((item, key) => (
             <div className="col-md-6 col-xl-3" key={`team-item-${key}`}>
               {/* team card */}
-              <div class="flip-card-container flip-portrait">
-                <div class="flip-card">
-                  <div class="card-front">
+              <div className="flip-card-container flip-portrait">
+                <div className="flip-card">
+                  <div className="card-front">
                     <figure>
                       <img
                         className="flip-img"
@@ -49,9 +49,9 @@ const TeamSection = () => {
                     </ul>
                   </div>
 
-                  <div class="card-back">
+                  <div className="card-back">
                     <figure>
-                      {/* <div class="img-bg"></div> */}
+                      {/* <div className="img-bg"></div> */}
                       <img
                         className="flip-img"
                         // src="https://img.freepik.com/premium-photo/confident-corporate-charm-handsome-young-african-american-businessman-standing-indoors-with-his-arms-folded_590464-31666.jpg?w=360"

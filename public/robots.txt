@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.meritechnologies.com
+
+# Sitemaps
+Sitemap: https://www.meritechnologies.com/sitemap.xml

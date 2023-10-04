@@ -72,7 +72,26 @@ function MyApp({ Component, pageProps }) {
           content="Meri Technologies, digital marketing, web development, graphic design, advertising, branding"
         />
         <meta name="author" content="Meri Technologies" />
-        <link rel={"icon"} href="/img/logo3.png" type="image/png" />
+
+        <link
+          rel="apple-touch-icon"
+          sizes="180x180"
+          href="/apple-touch-icon.png"
+        />
+        <link rel="apple-touch-icon" sizes="180x180" href="/favicon.ico" />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="32x32"
+          href="/favicon-32x32.png"
+        />
+        <link
+          rel="icon"
+          type="image/png"
+          sizes="16x16"
+          href="/favicon-16x16.png"
+        />
+        <link rel="manifest" href="/site.webmanifest"></link>
 
         {/* Geo-Targeting Meta Tag (for local SEO) */}
         <meta name="geo.region" content="ET-AA" />

@@ -2,12 +2,12 @@ import React from "react";
 
 export function ProjectCardBig({ item }) {
   return (
-    <div class="portfolio-container ">
-      <div class="portfolio-left">
-        <h5 class="portfolio-title">{item.title}</h5>
-        <div class="portfolio-desc">{item.description}</div>
+    <div className="portfolio-container ">
+      <div className="portfolio-left">
+        <h5 className="portfolio-title">{item.title}</h5>
+        <div className="portfolio-desc">{item.description}</div>
       </div>
-      <div class="portfolio-right">
+      <div className="portfolio-right">
         <img src={item.image} />
       </div>
     </div>
@@ -17,11 +17,11 @@ export function ProjectCardBig({ item }) {
 function ProjectCard({ item }) {
   return (
     <div>
-      <div class="flip-card-container">
-        <div class="flip-card">
-          <div class="card-front">
+      <div className="flip-card-container">
+        <div className="flip-card">
+          <div className="card-front">
             <figure>
-              {/* <div class="img-bg"></div>  */}
+              {/* <div className="img-bg"></div>  */}
               <img
                 className="flip-img"
                 // src="/img/hero/bg.svg"
@@ -44,23 +44,23 @@ function ProjectCard({ item }) {
             </ul> */}
           </div>
 
-          <div class="card-back">
+          <div className="card-back">
             <figure>
-              <div class="img-bg"></div>
+              <div className="img-bg"></div>
               <img src={item.image} alt={item.title} width={"100%"} />
             </figure>
 
             {/* <button className="flip-button">Open</button> */}
 
-            <div class="design-container">
-              <span class="design design--1"></span>
-              <span class="design design--2"></span>
-              <span class="design design--3"></span>
-              <span class="design design--4"></span>
-              <span class="design design--5"></span>
-              <span class="design design--6"></span>
-              <span class="design design--7"></span>
-              <span class="design design--8"></span>
+            <div className="design-container">
+              <span className="design design--1"></span>
+              <span className="design design--2"></span>
+              <span className="design design--3"></span>
+              <span className="design design--4"></span>
+              <span className="design design--5"></span>
+              <span className="design design--6"></span>
+              <span className="design design--7"></span>
+              <span className="design design--8"></span>
             </div>
           </div>
         </div>
