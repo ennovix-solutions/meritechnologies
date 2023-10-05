@@ -73,6 +73,39 @@ function MyApp({ Component, pageProps }) {
           content="Technology company in Ethiopia, digital marketing in Ethiopia, web development in Ethiopia, graphic design in Ethiopia, advertising company in Ethiopia, branding in Ethiopia"
         />
         <meta name="author" content="Meri Technologies" />
+        <link rel="canonical" href="https://meritechnologies.com/" />
+
+        <meta
+          name="google-site-verification"
+          content="gv-nachge46tqa6w6.dv.googlehosted.com"
+        />
+
+        {/*  */}
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:type" content="website" />
+        <meta
+          property="og:title"
+          content="Top Technology Company in Ethiopia | Meri Technologies"
+        />
+        <meta
+          property="og:description"
+          content="Ethiopia's Top Technology company, offering expert services in softwares, websites, branding, video production, graphics designing and marketing. Discover our portfolio and let us transform your brand's online presence."
+        />
+        <meta property="og:url" content="https://meritechnologies.com/" />
+        <meta property="og:site_name" content="Meri Technologies" />
+        <meta
+          property="article:modified_time"
+          content={`${new Date().toISOString()}`}
+          // "2023-09-22T16:28:35+00:00"
+        />
+        <meta
+          property="og:image"
+          content="https://meritechnologies.com/img/logo.png"
+        />
+        <meta property="og:image:width" content="2048" />
+        <meta property="og:image:height" content="1365" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta name="twitter:card" content="summary_large_image" />
 
         <link
           rel="apple-touch-icon"
