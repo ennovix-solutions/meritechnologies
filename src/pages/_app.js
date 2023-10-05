@@ -58,17 +58,19 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Meri Techs - Your Partner in Digital Success</title>
+        {/* <title>Meri Techs - Your Partner in Digital Success</title> */}
+        <title>Top Technology Company in Ethiopia | Meri Technologies</title>
         {/* seo begin */}
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Meri Technologies - Your Partner in Digital Success"
+          content="Ethiopia's Top Technology company, offering expert services in softwares, websites, branding, video production, graphics designing and marketing. Discover our portfolio and let us transform your brand's online presence."
+          // content="Meri Technologies - Your Partner in Digital Success"
         />
         <meta
           name="keywords"
-          content="Meri Technologies, digital marketing, web development, graphic design, advertising, branding"
+          content="Technology company in Ethiopia, digital marketing in Ethiopia, web development in Ethiopia, graphic design in Ethiopia, advertising company in Ethiopia, branding in Ethiopia"
         />
         <meta name="author" content="Meri Technologies" />
 
