@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/icons/4.svg"
+image: "img/services/digital-marketing.png"
 title: "Digital Marketing Services"
 short: "Strategic Online Promotion"
 

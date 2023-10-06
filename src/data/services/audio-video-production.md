@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/icons/1.svg"
+image: "img/services/video-production.png"
 title: "Video & Audio Production"
 short: "Crafting Immersive Multimedia Experiences"
 

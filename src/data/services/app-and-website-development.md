@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "img/icons/1.svg"
+image: "img/services/website-development.png"
 title: "App & Website Development"
 short: "Cutting-Edge Digital Solutions"
 

@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/img/icons/2.svg"
+image: "/img/services/graphics-design.png"
 title: "Graphics Design"
 short: "Creative Visual Solutions"
 

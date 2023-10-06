@@ -1,6 +1,6 @@
 ---
 #preview details
-image: "/img/icons/6.svg"
+image: "/img/services/branding.png"
 title: "Full Branding"
 short: "Comprehensive Branding Solutions"
 
