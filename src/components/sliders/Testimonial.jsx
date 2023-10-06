@@ -49,6 +49,9 @@ const TestimonialSlider = () => {
                     <div className="mil-user-details">
                       <div className="mil-avatar mil-mr-15">
                         <img
+                          style={{
+                            objectFit: "cover",
+                          }}
                           // src={item.name}
                           src={`https://ui-avatars.com/api/?name=${item.name
                             .split(" ")
