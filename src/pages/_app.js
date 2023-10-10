@@ -65,7 +65,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="description"
-          content="Ethiopia's Top Technology company, offering expert services in softwares, websites, branding, video production, graphics designing and marketing. Discover our portfolio and let us transform your brand's online presence."
+          content="Leading tech company in Ethiopia, specializing in software, websites, branding, video production, graphics, and marketing. Explore our portfolio for a transformative online presence."
           // content="Meri Technologies - Your Partner in Digital Success"
         />
         <meta
@@ -89,7 +89,7 @@ function MyApp({ Component, pageProps }) {
         />
         <meta
           property="og:description"
-          content="Ethiopia's Top Technology company, offering expert services in softwares, websites, branding, video production, graphics designing and marketing. Discover our portfolio and let us transform your brand's online presence."
+          content="Leading tech company in Ethiopia, specializing in software, websites, branding, video production, graphics, and marketing. Explore our portfolio for a transformative online presence."
         />
         <meta property="og:url" content="https://meritechnologies.com/" />
         <meta property="og:site_name" content="Meri Technologies" />
