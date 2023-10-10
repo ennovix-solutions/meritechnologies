@@ -88,7 +88,7 @@ const SEO = {
   ],
 };
 
-const OrganizationJSONLD = {
+export const organizationJSONLD = {
   type: "Organization",
   name: "Meri Technologies",
   description,

@@ -1,7 +1,7 @@
 import App, { Container } from "next/app";
-import { DefaultSeo, LocalBusinessJsonLd, OrganizationJsonLd } from "next-seo";
+import { DefaultSeo, OrganizationJsonLd } from "next-seo";
 
-import SEO from "@/next-seo.config";
+import SEO, { organizationJSONLD } from "@/next-seo.config";
 
 import "react-toastify/dist/ReactToastify.css";
 
@@ -40,21 +40,7 @@ export default function MyApp({ Component, pageProps }) {
     <>
       {!loading ? (
         <>
-          <OrganizationJsonLd
-            name=""
-            url=""
-            address={[]}
-            contactPoint={[]}
-            dataArray={[]}
-            id=""
-            key={[]}
-            legalName=""
-            logo=""
-            sameAs={[]}
-            scriptId=""
-            type="Organization"
-            useAppDir
-          />
+          <OrganizationJsonLd {...organizationJSONLD} />
           <DefaultSeo {...SEO} />
           <ToastContainer />
           <CookieConsent />
