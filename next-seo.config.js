@@ -1,5 +1,6 @@
 const title = "Top Technology Company in Ethiopia";
 const titleTemplate = "%s | Meri Technologies";
+const defaultTitle = "Top Technology Company in Ethiopia | Meri Technologies";
 const description =
   "Leading tech company in Ethiopia, specializing in software, websites, branding, video production, graphics, and marketing. Explore our portfolio for a transformative online presence.";
 const websiteURL = "https://meritechnologies.com/";
@@ -7,6 +8,7 @@ const websiteURL = "https://meritechnologies.com/";
 const SEO = {
   title,
   titleTemplate,
+  defaultTitle,
   description,
   canonical: websiteURL,
   openGraph: {

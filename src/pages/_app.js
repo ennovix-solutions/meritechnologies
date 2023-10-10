@@ -40,6 +40,7 @@ export default function MyApp({ Component, pageProps }) {
     <>
       {!loading ? (
         <>
+          <DefaultSeo {...SEO} />
           <ToastContainer />
           <CookieConsent />
           <Component {...pageProps} />
