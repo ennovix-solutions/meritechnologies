@@ -1,5 +1,5 @@
 import App, { Container } from "next/app";
-import { DefaultSeo } from "next-seo";
+import { DefaultSeo, LocalBusinessJsonLd, OrganizationJsonLd } from "next-seo";
 
 import SEO from "@/next-seo.config";
 
@@ -40,6 +40,21 @@ export default function MyApp({ Component, pageProps }) {
     <>
       {!loading ? (
         <>
+          <OrganizationJsonLd
+            name=""
+            url=""
+            address={[]}
+            contactPoint={[]}
+            dataArray={[]}
+            id=""
+            key={[]}
+            legalName=""
+            logo=""
+            sameAs={[]}
+            scriptId=""
+            type="Organization"
+            useAppDir
+          />
           <DefaultSeo {...SEO} />
           <ToastContainer />
           <CookieConsent />

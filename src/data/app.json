@@ -1,6 +1,6 @@
 {
   "settings": {
-    "formspreeURL": "https://formspree.io/f/moqopeqw",
+    "formspreeURL": "https://formspree.io/f/xwkdakby",
     "mailchimp": {
       "url": "",
       "key": ""
@@ -105,8 +105,8 @@
     }
   },
   "contacts": {
-    "email": "meritech.et@gmail.com",
-    "tel": "+251 954 977 541",
+    "email": "support@meritechnologies.com",
+    "tel": "+251932555533",
     "contact": {
       "pageImage": "img/content/5.jpg",
       "pageTitle": "Contact",
@@ -116,14 +116,14 @@
         {
           "icon": "img/icons/4.svg",
           "label": "Email Us",
-          "value": "meritech.et@gmail.com",
-          "link": "mailto:meritech.et@gmail.com"
+          "value": "support@meritechnologies.com",
+          "link": "mailto:support@meritechnologies.com"
         },
         {
           "icon": "img/icons/7.svg",
           "label": "Call MERI",
-          "value": "+251954977541",
-          "link": "tel:+251954977541"
+          "value": "+251932555533",
+          "link": "tel:+251932555533"
         }
       ]
     }
@@ -145,7 +145,7 @@
       "title": "Linkedin"
     },
     {
-      "link": "tel:0954977541",
+      "link": "tel:0932555533",
       "icon": "fa fa-solid fa-phone",
       "title": "Call us"
     }

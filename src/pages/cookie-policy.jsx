@@ -127,7 +127,7 @@ function cookiePolicy() {
           </p>
 
           <ul>
-            <li>Email: meritech.et@gmail.com</li>
+            <li>Email: support@meritechnologies.com</li>
           </ul>
         </div>
       </div>

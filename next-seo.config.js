@@ -88,4 +88,33 @@ const SEO = {
   ],
 };
 
+const OrganizationJSONLD = {
+  type: "Organization",
+  name: "Meri Technologies",
+  description,
+  url: websiteURL,
+  logo: websiteURL + "logo.png",
+  contactPoint: {
+    "@type": "ContactPoint",
+    telephone: "+251932555533",
+    contactType: "customer service",
+  },
+  address: {
+    "@type": "PostalAddress",
+    address: {
+      "@type": "PostalAddress",
+      streetAddress: "123 Example Street",
+      addressLocality: "Addis Ababa",
+      addressRegion: "",
+      postalCode: "1000", // Addis Ababa postal codes might vary; replace this with the accurate postal code if available.
+      addressCountry: "Ethiopia",
+    },
+  },
+  sameAs: [
+    "https://dreamtech.et",
+    "https://zalatech.com",
+    "https://africom.com.et",
+  ],
+};
+
 export default SEO;
