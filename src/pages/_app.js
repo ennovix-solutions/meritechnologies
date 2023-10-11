@@ -53,9 +53,9 @@ export default function MyApp({ Component, pageProps }) {
           href="/favicon-16x16.png"
         />
       </Head>
+      <DefaultSeo {...SEO} />
       {!loading ? (
         <>
-          <DefaultSeo {...SEO} />
           <OrganizationJsonLd {...organizationJSONLD} />
           <ToastContainer />
           <CookieConsent />
@@ -63,7 +63,6 @@ export default function MyApp({ Component, pageProps }) {
         </>
       ) : (
         <>
-          {/* <DefaultSeo {...SEO} /> */}
           <Loader />
         </>
       )}
