@@ -56,6 +56,7 @@ export default function MyApp({ Component, pageProps }) {
       {!loading ? (
         <>
           <DefaultSeo {...SEO} />
+
           <OrganizationJsonLd {...organizationJSONLD} />
           <ToastContainer />
           <CookieConsent />
