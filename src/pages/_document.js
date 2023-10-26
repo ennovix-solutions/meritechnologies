@@ -1,5 +1,6 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
+const gtag = `https://www.googletagmanager.com/gtag/js?id=G-M868LEW3RE`;
 class MyDocument extends Document {
   render() {
     return (
@@ -16,6 +17,20 @@ class MyDocument extends Document {
           <link rel="stylesheet" href="/css/plugins/font-awesome.min.css" />
           <link rel="stylesheet" href="/css/plugins/swiper.min.css" />
           {/* public assets end */}
+
+          {/* Inject the GA tracking code with the Measurement ID  */}
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                  page_path: window.location.pathname
+                });
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />

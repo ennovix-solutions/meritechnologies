@@ -15,16 +15,23 @@ import Loader from "../components/Loader";
 import Head from "next/head";
 import ReactGA from "react-ga4";
 
-ReactGA.initialize("G-M868LEW3RE");
-
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
+    ReactGA.initialize("G-M868LEW3RE");
+  }, []);
+
+  useEffect(() => {
     setLoading(false);
     const handleRouteChange = (url) => {
       setLoading(true);
+
+      // tracking page with google analytics
+      window.gtag("config", "G-M868LEW3RE", {
+        page_path: url,
+      });
     };
 
     const handleRouteChangeComplete = () => {
