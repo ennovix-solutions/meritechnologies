@@ -13,6 +13,9 @@ import { ToastContainer } from "react-toastify";
 import CookieConsent from "../components/sections/CookieConsent";
 import Loader from "../components/Loader";
 import Head from "next/head";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-M868LEW3RE");
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
