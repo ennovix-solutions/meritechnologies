@@ -16,7 +16,7 @@ const ContactSection = ({ popup = false }) => {
 
   return (
     <Formik
-      initialValues={{ email: "", name: "", message: "" }}
+      initialValues={{ email: "", name: "", phone_number: "", message: "" }}
       validate={(values) => {
         const errors = {};
         if (!values.email) {
@@ -35,6 +35,7 @@ const ContactSection = ({ popup = false }) => {
 
         data.append("name", values.name);
         data.append("email", values.email);
+        data.append("phone_number", values.phone_number);
         data.append("message", values.message);
 
         fetch(form.action, {
@@ -115,6 +116,27 @@ const ContactSection = ({ popup = false }) => {
                     style={{ marginLeft: "20px", textTransform: "lowercase" }}
                   >
                     {errors.name && touched.name && errors.name}
+                  </em>
+                </div>
+                {/* phone_number */}
+                <div className="mil-styled-input mil-appearance mil-hidden-trigger mil-mb-30">
+                  <input
+                    className="mil-link"
+                    type="text"
+                    name="phone_number"
+                    required="required"
+                    onChange={handleChange}
+                    onBlur={handleBlur}
+                    value={values.phone_number}
+                  />
+                  <label className="mil-link">Phone Number</label>
+                  <span></span>
+                  <em
+                    style={{ marginLeft: "20px", textTransform: "lowercase" }}
+                  >
+                    {errors.phone_number &&
+                      touched.phone_number &&
+                      errors.phone_number}
                   </em>
                 </div>
                 {/* email */}
