@@ -25,7 +25,9 @@ class MyDocument extends Document {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);}
                 gtag('js', new Date());
-                gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
+                gtag('config', '${
+                  process.env.NEXT_PUBLIC_GA_ID || "AW-11390370827"
+                }', {
                   page_path: window.location.pathname
                 });
 
@@ -38,17 +40,6 @@ class MyDocument extends Document {
             async
             src="https://www.googletagmanager.com/gtag/js?id=AW-11390370827"
           ></script>
-
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || []; 
-                function gtag(){dataLayer.push(arguments);} 
-                gtag('js', new Date()); 
-                gtag('config', 'AW-11390370827');
-              `,
-            }}
-          />
 
           <script
             dangerouslySetInnerHTML={{
