@@ -49,6 +49,14 @@ class MyDocument extends Document {
               `,
             }}
           />
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                gtag('event', 'conversion', {'send_to': 'AW-11390370827/eFMiCKWl1_AYEIuIrbcq'});
+              `,
+            }}
+          />
         </Head>
         <body>
           <Main />
