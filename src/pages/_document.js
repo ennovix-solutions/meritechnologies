@@ -28,6 +28,24 @@ class MyDocument extends Document {
                 gtag('config', '${process.env.NEXT_PUBLIC_GA_ID}', {
                   page_path: window.location.pathname
                 });
+
+                gtag('config', 'AW-11390370827');
+              `,
+            }}
+          />
+
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=AW-11390370827"
+          ></script>
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+                window.dataLayer = window.dataLayer || []; 
+                function gtag(){dataLayer.push(arguments);} 
+                gtag('js', new Date()); 
+                gtag('config', 'AW-11390370827');
               `,
             }}
           />
