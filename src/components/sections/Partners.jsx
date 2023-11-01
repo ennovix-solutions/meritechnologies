@@ -5,7 +5,7 @@ import Link from "next/link";
 
 function Partners() {
   return (
-    <div className="partners col-12" id="partners">
+    <div className="bgSection partners col-12" id="partners">
       <div className="container mil-p-120-90">
         <div className="row justify-content-between mil-mb-120">
           <div className="col-xl-5">

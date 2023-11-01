@@ -23,11 +23,17 @@ const Home = (props) => {
   return (
     <Layouts>
       <Hero />
-      <WhatWeOffer />
+      <div className="bgSection">
+        <WhatWeOffer />
+      </div>
       <AboutSection />
-      <ServicesSection services={props.services} brief={4} />
+      <div className="bgSection">
+        <ServicesSection services={props.services} brief={4} />
+      </div>
       <ProjectsSection projects={props.projects} />
-      <Partners />
+      <div className="bgSection">
+        <Partners />
+      </div>
       {/* <TeamSection /> */}
       {/* <VideoSection /> */}
       <TestimonialSlider />

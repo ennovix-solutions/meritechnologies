@@ -1,5 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
 
+.bgSection {
+  background: url("/img/bgSection.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .full-flex {
   display: "flex";
   justify-content: "center";

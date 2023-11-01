@@ -5,7 +5,7 @@ const ServicesSection = ({ services, brief }) => {
   return (
     <>
       {/* services */}
-      <div className="mil-gray-bg mil-p-120-0">
+      <div className=" mil-p-120-0">
         <div className="container">
           <div className="row justify-content-between align-items-center">
             <div className="col-xl-6 mil-mb-90">
