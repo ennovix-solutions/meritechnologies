@@ -14,6 +14,7 @@ import ProjectsSection from "../components/sections/Projects";
 import ServicesSection from "../components/sections/Services";
 import Hero from "../components/sections/Hero";
 import CustomModal from "../components/Modal";
+import { getCookie } from "cookies-next";
 
 const TestimonialSlider = dynamic(
   () => import("@components/sliders/Testimonial"),
@@ -21,12 +22,16 @@ const TestimonialSlider = dynamic(
 );
 
 const Home = (props) => {
-  const [marketingModal, setMarketingModal] = useState(true);
+  const [marketingEmailCookie, setMarketingEmailCookie] = useState(true);
+
+  useEffect(() => {
+    setMarketingEmailCookie(getCookie("marketingEmail"));
+  }, []);
 
   return (
     <Layouts>
       <Hero />
-      <CustomModal />
+      {!marketingEmailCookie && <CustomModal />}
       <div className="bgSection">
         <WhatWeOffer />
       </div>

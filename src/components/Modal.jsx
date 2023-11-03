@@ -8,6 +8,7 @@ import { Grid, Input, TextField } from "@mui/material";
 import Image from "next/image";
 import { useForm, ValidationError } from "@formspree/react";
 import { toast } from "react-toastify";
+import { setCookie } from "cookies-next";
 
 const style = {
   wrapper: {
@@ -66,8 +67,13 @@ export default function BasicModal({ isOpen = false }) {
 
   React.useEffect(() => {
     if (state.succeeded) {
+      var expires = new Date();
+      expires.setDate(expires.getDate() + 14);
+
       makeToast("Thanks we will send the pdf soon!");
       handleClose();
+
+      setCookie("marketingEmail", "true", { expires });
     }
   }, [state.succeeded]);
 
