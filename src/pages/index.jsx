@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import Layouts from "@layouts/Layouts";
 import dynamic from "next/dynamic";
 
@@ -13,6 +13,7 @@ import CallToActionSection from "../components/sections/CallToAction";
 import ProjectsSection from "../components/sections/Projects";
 import ServicesSection from "../components/sections/Services";
 import Hero from "../components/sections/Hero";
+import CustomModal from "../components/Modal";
 
 const TestimonialSlider = dynamic(
   () => import("@components/sliders/Testimonial"),
@@ -20,9 +21,12 @@ const TestimonialSlider = dynamic(
 );
 
 const Home = (props) => {
+  const [marketingModal, setMarketingModal] = useState(true);
+
   return (
     <Layouts>
       <Hero />
+      <CustomModal />
       <div className="bgSection">
         <WhatWeOffer />
       </div>
@@ -34,10 +38,7 @@ const Home = (props) => {
       <div className="bgSection">
         <Partners />
       </div>
-      {/* <TeamSection /> */}
-      {/* <VideoSection /> */}
       <TestimonialSlider />
-      {/* <LatestPostsSection posts={props.posts} /> */}
       <CallToActionSection />
     </Layouts>
   );

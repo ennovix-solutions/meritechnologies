@@ -1,6 +1,7 @@
 {
   "settings": {
     "formspreeURL": "https://formspree.io/f/xwkdakby",
+    "formspreeID": "xwkdakby",
     "mailchimp": {
       "url": "",
       "key": ""
