@@ -31,7 +31,7 @@ const Home = (props) => {
   return (
     <Layouts>
       <Hero />
-      {!marketingEmailCookie && <CustomModal />}
+      {/* {!marketingEmailCookie && <CustomModal />} */}
       <div className="bgSection">
         <WhatWeOffer />
       </div>
