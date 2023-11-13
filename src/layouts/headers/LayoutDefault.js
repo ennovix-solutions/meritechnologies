@@ -46,24 +46,28 @@ const DefaultHeader = ({ transparent, invert, extraClass }) => {
           <div id="swupTopbar" className="mil-top-bar-transition">
             <nav className="mil-dark-nav">
               <ul className="mil-inline-list mil-hidden-trigger">
-                {navItems.map((item, key) => (
-                  <li className={item.classes} key={`header-menu-item-${key}`}>
-                    <Link href={item.link} className="mil-link">
-                      {item.label}
-                    </Link>
-                    {item.children != 0 && (
-                      <ul>
-                        {item.children.map((subitem, key) => (
-                          <li key={`header-submenu-item-${key}`}>
-                            <Link href={subitem.link} className="mil-link">
-                              {subitem.label}
-                            </Link>
-                          </li>
-                        ))}
-                      </ul>
-                    )}
-                  </li>
-                ))}
+                {navItems.map((item, key) =>
+                  item?.button ? (
+                    <li className={item.classes}>
+                      <Link
+                        href={item.link}
+                        target={item.external && "_blank"}
+                        className="mil-button mil-button-rounded  mil-button- mil-scale-down-trigger mil-accent-trigger mil-buttons-space"
+                      >
+                        <span style={{ padding: "0 10px" }}>{item.label}</span>
+                      </Link>
+                    </li>
+                  ) : (
+                    <li
+                      className={item.classes}
+                      key={`header-menu-item-${key}`}
+                    >
+                      <Link href={item.link} className="mil-link">
+                        {item.label}
+                      </Link>
+                    </li>
+                  )
+                )}
               </ul>
             </nav>
           </div>

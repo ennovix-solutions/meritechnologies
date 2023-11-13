@@ -6,7 +6,7 @@ main
 *,
 *:before,
 *:after {
-  user-select: none;
+  user-select: text;
   padding: 0;
   margin: 0;
   box-sizing: border-box;

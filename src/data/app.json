@@ -42,6 +42,13 @@
         "label": "Contact",
         "link": "/contact",
         "children": 0
+      },
+      {
+        "label": "Learn with Meri",
+        "link": "https://www.learn.meritechnologies.com/",
+        "children": 0,
+        "button": true,
+        "external": true
       }
     ]
   },
@@ -141,7 +148,7 @@
       "title": "Insagram"
     },
     {
-      "link": "https://www.linkedin.com/company/meri-technoligies/",
+      "link": "https://www.linkedin.com/company/meri-technologies/",
       "icon": "fab fa-linkedin-in",
       "title": "Linkedin"
     },
