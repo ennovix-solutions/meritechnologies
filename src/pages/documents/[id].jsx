@@ -13,7 +13,7 @@ function Document() {
   const router = useRouter();
 
   return (
-    <Layouts>
+    <Layouts noFooter invert>
       <Head>
         <title>{router.query.id} document| Meri Technologies </title>
       </Head>
@@ -21,6 +21,7 @@ function Document() {
         style={{
           border: "1px solid rgba(0, 0, 0, 0.3)",
           height: "750px",
+          margin: "20px 0",
         }}
       >
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
