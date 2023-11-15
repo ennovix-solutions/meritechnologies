@@ -13,7 +13,7 @@ function Document() {
   const router = useRouter();
 
   return (
-    <Layouts noFooter invert>
+    <Layouts transparent noFooter invert>
       <Head>
         <title>{router.query.id} document| Meri Technologies </title>
       </Head>
