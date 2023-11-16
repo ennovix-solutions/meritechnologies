@@ -7,6 +7,40 @@
   background-position: center;
 }
 
+.document-wrapper {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  min-height: 750px;
+  margin: 20px 0;
+  padding-top: 60px;
+  /* background-color: gray; */
+}
+
+.full-page-btn {
+  position: fixed;
+  bottom: 100px;
+  width: 100vw;
+  display: flex;
+  justify-content: right;
+  right: 30px;
+  z-index: 1000;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.full-page-btn > button {
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50%;
+  width: 50px;
+  padding: 10px;
+  height: 50px;
+  font-weight: 900;
+  background-color: #fff !important;
+}
+
+.full-page-btn > button:hover {
+  background-color: #fff !important;
+}
 .full-flex {
   display: "flex";
   justify-content: "center";

@@ -1,6 +1,6 @@
 import HeaderLayoutDefault from "./LayoutDefault";
 
-const Header = ({ layout, transparent, invert, extraClass }) => {
+const Header = ({ layout, transparent, invert, logoOnly, extraClass }) => {
   switch (layout) {
     case 1:
       return;
@@ -13,6 +13,7 @@ const Header = ({ layout, transparent, invert, extraClass }) => {
         <HeaderLayoutDefault
           transparent={transparent}
           invert={invert}
+          logoOnly={logoOnly}
           extarClass={extraClass}
         />
       );

@@ -14,6 +14,7 @@ import { useRouter } from "next/router";
 const Layouts = ({
   children,
   header,
+  logoOnly,
   footer,
   noHeader,
   noFooter,
@@ -36,6 +37,7 @@ const Layouts = ({
       <Cursor />
       {!noHeader && (
         <Header
+          logoOnly={logoOnly}
           layout={header}
           transparent={transparent}
           invert={invert}
