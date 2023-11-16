@@ -16,12 +16,14 @@ import Head from "next/head";
 const renderToolbar = (Toolbar) => (
   <Toolbar>
     {(slots) => {
-      const { ZoomOut } = slots;
+      const { ZoomOut, ZoomIn, EnterFullScreen } = slots;
       return (
         <div
           style={{
             alignItems: "center",
             display: "flex",
+            justifyContent: "center",
+            width: "100%",
           }}
         >
           <div style={{ padding: "0px 2px" }}>
@@ -29,7 +31,7 @@ const renderToolbar = (Toolbar) => (
               {(props) => (
                 <button
                   style={{
-                    backgroundColor: "#357edd",
+                    backgroundColor: "gray",
                     border: "none",
                     borderRadius: "4px",
                     color: "#ffffff",
@@ -38,12 +40,53 @@ const renderToolbar = (Toolbar) => (
                   }}
                   onClick={props.onClick}
                 >
-                  Zoom out
+                  -
                 </button>
               )}
             </ZoomOut>
           </div>
-          ...
+          {/* ... */}
+
+          <div style={{ padding: "0px 2px" }}>
+            <ZoomIn>
+              {(props) => (
+                <button
+                  style={{
+                    backgroundColor: "gray",
+                    border: "none",
+                    borderRadius: "4px",
+                    color: "#ffffff",
+                    cursor: "pointer",
+                    padding: "8px",
+                  }}
+                  onClick={props.onClick}
+                >
+                  +
+                </button>
+              )}
+            </ZoomIn>
+          </div>
+          {/* ... */}
+
+          <div style={{ padding: "0px 2px" }}>
+            <EnterFullScreen>
+              {(props) => (
+                <button
+                  style={{
+                    backgroundColor: "white",
+                    border: "none",
+                    borderRadius: "4px",
+                    color: "#ffffff",
+                    cursor: "pointer",
+                    padding: "8px",
+                  }}
+                  onClick={props.onClick}
+                >
+                  <img src="/img/icons/fullscreen.svg" width={10} height={10} />
+                </button>
+              )}
+            </EnterFullScreen>
+          </div>
         </div>
       );
     }}
@@ -58,29 +101,16 @@ function Document() {
     .map((word) => word.charAt(0).toLocaleUpperCase() + word.substring(1))
     .join(" ");
 
-  const defaultLayoutPluginInstance = defaultLayoutPlugin();
-
-  function handleFullPage() {
-    setFullPage(!fullPage);
-  }
+  const defaultLayoutPluginInstance = defaultLayoutPlugin({
+    renderToolbar: renderToolbar,
+  });
 
   return (
     <>
       <Head>
         <title>{documentName} Document | Meri Technologies </title>
       </Head>
-      {/* <div className="full-page-btn">
-        <button
-          title={fullPage ? "Normal" : "Fullpage"}
-          onClick={handleFullPage}
-        >
-          {fullPage ? (
-            <img src="/img/icons/normal-screen.svg" color="red" width={20} />
-          ) : (
-            <img src="/img/icons/fullscreen.svg" color="red" width={20} />
-          )}
-        </button>
-      </div> */}
+
       {fullPage ? (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <Viewer
