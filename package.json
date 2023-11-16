@@ -16,6 +16,8 @@
     "@mui/material": "^5.14.16",
     "@nextui-org/modal": "^2.0.23",
     "@react-pdf-viewer/core": "^3.12.0",
+    "@react-pdf-viewer/default-layout": "^3.12.0",
+    "@react-pdf-viewer/toolbar": "^3.12.0",
     "contentful": "^10.5.2",
     "cookies-next": "^4.0.0",
     "date-fns": "^2.30.0",
