@@ -114,8 +114,8 @@ function Document() {
       {fullPage ? (
         <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
           <Viewer
-            fileUrl={`http://files.meritechnologies.com/files/${router.query.id}.pdf`}
-            // fileUrl={`/docs/${router.query.id}.pdf`}
+            // fileUrl={`http://files.meritechnologies.com/files/${router.query.id}.pdf`}
+            fileUrl={`/docs/${router.query.id}.pdf`}
             plugins={[defaultLayoutPluginInstance]}
             onLoadError={(error) => alert("Inside Error: " + error.message)}
           />
@@ -128,9 +128,8 @@ function Document() {
             </h4>
             <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
               <Viewer
-                // fileUrl={`/docs/${router.query.id}.pdf`}
-
-                fileUrl={`http://files.meritechnologies.com/files/${router.query.id}.pdf`}
+                fileUrl={`/docs/${router.query.id}.pdf`}
+                // fileUrl={`http://files.meritechnologies.com/files/${router.query.id}.pdf`}
                 plugins={[defaultLayoutPluginInstance]}
                 renderError={(error) => alert("Inside Error: " + error.message)}
               />
