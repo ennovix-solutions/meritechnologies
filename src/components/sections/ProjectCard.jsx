@@ -27,12 +27,14 @@ function ProjectCard({ item }) {
           <div className="card-front">
             <figure>
               {/* <div className="img-bg"></div>  */}
+
               <img
                 className="flip-img"
                 // src="/img/hero/bg.svg"
                 src={item.image}
                 alt={item.title}
               />
+
               <figcaption className="flip-figcaption mil-accent">
                 {item.category}
               </figcaption>
@@ -50,10 +52,12 @@ function ProjectCard({ item }) {
           </div>
 
           <div className="card-back">
-            <figure>
-              <div className="img-bg"></div>
-              <img src={item.image} alt={item.title} width={"100%"} />
-            </figure>
+            <Link href={"portfolio/" + item.id}>
+              <figure>
+                <div className="img-bg"></div>
+                <img src={item.image} alt={item.title} width={"100%"} />
+              </figure>
+            </Link>
 
             {/* <button className="flip-button">Open</button> */}
 

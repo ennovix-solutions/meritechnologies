@@ -258,7 +258,7 @@ const ProjectDetail = (props) => {
         </Gallery>
       </div>
 
-      <RelatedProjectsSection items={props.related} />
+      {/* <RelatedProjectsSection items={props.related} /> */}
     </Layouts>
   );
 };
