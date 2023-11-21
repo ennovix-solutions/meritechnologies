@@ -1,10 +1,15 @@
+import Link from "next/link";
 import React from "react";
 
 export function ProjectCardBig({ item }) {
   return (
     <div className="portfolio-container ">
       <div className="portfolio-left">
-        <h5 className="portfolio-title">{item.title}</h5>
+        <h5 className="portfolio-title">
+          <Link href={"portfolio/" + item.id} className="mil-link-hover">
+            {item.title}
+          </Link>
+        </h5>
         <div className="portfolio-desc">{item.description}</div>
       </div>
       <div className="portfolio-right">

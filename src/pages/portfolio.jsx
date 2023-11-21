@@ -57,9 +57,9 @@ const Portfolio = ({ projects }) => {
             </p>
             {/* button */}
             <div className="mil-appearance">
-              <Link href={Data.button.link} className="mil-link-hover">
-                {Data.button.label}
-              </Link>
+              {/* <Link href={Data.button.link} className="mil-link-hover">
+                {Data.button.label} 
+              </Link> */}
             </div>
           </div>
         </div>
