@@ -132,7 +132,7 @@ function Document() {
 
                 fileUrl={`http://files.meritechnologies.com/files/${router.query.id}.pdf`}
                 plugins={[defaultLayoutPluginInstance]}
-                onLoadError={(error) => alert("Inside Error: " + error.message)}
+                renderError={(error) => alert("Inside Error: " + error.message)}
               />
             </Worker>
           </div>
