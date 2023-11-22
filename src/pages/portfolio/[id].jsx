@@ -13,6 +13,63 @@ import {
 
 import RelatedProjectsSection from "@components/sections/RelatedProjects";
 
+const ImageGallery = ({ gallery }) => {
+  return (
+    <>
+      {gallery.enabled == 1 && (
+        <div className="row justify-content-center ">
+          <div className="col-lg-12 col-xl-9">
+            <div className="row">
+              {gallery.items.map((item, key) => (
+                <div
+                  className={gallery.cols == 3 ? "col-lg-4" : "col-lg-6"}
+                  key={`gallery-item-${key}`}
+                >
+                  <Item
+                    original={item.image}
+                    thumbnail={item.image}
+                    width={item.width}
+                    height={item.height}
+                  >
+                    {({ ref, open }) => (
+                      <a
+                        data-fancybox="gallery"
+                        data-no-swup
+                        ref={ref}
+                        onClick={open}
+                        className={
+                          gallery.style == "vertical"
+                            ? "mil-appearance mil-just-image mil-image-vert mil-icon-3-trigger mil-accent-trigger mil-mb-30"
+                            : "mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30"
+                        }
+                        style={{
+                          cursor: "pointer",
+                          display:
+                            key < (gallery.limit || gallery.items.length)
+                              ? "block"
+                              : "none",
+                        }}
+                      >
+                        <img
+                          src={item.image}
+                          alt={item.alt}
+                          className="mil-scale-img"
+                          data-value-1="1"
+                          data-value-2="1.1"
+                        />
+                      </a>
+                    )}
+                  </Item>
+                </div>
+              ))}
+            </div>
+          </div>
+        </div>
+      )}
+    </>
+  );
+};
+
 const ProjectDetail = (props) => {
   const postData = props.data;
 
@@ -62,7 +119,7 @@ const ProjectDetail = (props) => {
                       ref={ref}
                       onClick={open}
                       data-no-swup
-                      className="mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-120"
+                      className="mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger "
                       style={{ cursor: "pointer" }}
                     >
                       <img
@@ -118,7 +175,10 @@ const ProjectDetail = (props) => {
           {typeof postData.description1 != "undefined" && (
             <>
               {postData.description1.enabled == 1 && (
-                <div className="row justify-content-center mil-p-0-0">
+                <div
+                  style={{ margin: "30px 0" }}
+                  className="row justify-content-center mil-p-0-0"
+                >
                   <div className="col-lg-10 col-xl-6 mil-text-center">
                     <h5 className="mil-appearance mil-mb-30">
                       {postData.description1.heading}
@@ -133,55 +193,8 @@ const ProjectDetail = (props) => {
             </>
           )}
 
-          {typeof postData.gallery != "undefined" && (
-            <>
-              {postData.gallery.enabled == 1 && (
-                <div className="row justify-content-center mil-p-120-0">
-                  <div className="col-lg-12 col-xl-9">
-                    <div className="row">
-                      {postData.gallery.items.map((item, key) => (
-                        <div
-                          className={
-                            postData.gallery.cols == 3 ? "col-lg-4" : "col-lg-6"
-                          }
-                          key={`gallery-item-${key}`}
-                        >
-                          <Item
-                            original={item.image}
-                            thumbnail={item.image}
-                            width={item.width}
-                            height={item.height}
-                          >
-                            {({ ref, open }) => (
-                              <a
-                                data-fancybox="gallery"
-                                data-no-swup
-                                ref={ref}
-                                onClick={open}
-                                className={
-                                  postData.gallery.style == "vertical"
-                                    ? "mil-appearance mil-just-image mil-image-vert mil-icon-3-trigger mil-accent-trigger mil-mb-30"
-                                    : "mil-appearance mil-just-image mil-image-hori mil-icon-3-trigger mil-accent-trigger mil-mb-30"
-                                }
-                                style={{ cursor: "pointer" }}
-                              >
-                                <img
-                                  src={item.image}
-                                  alt={item.alt}
-                                  className="mil-scale-img"
-                                  data-value-1="1"
-                                  data-value-2="1.1"
-                                />
-                              </a>
-                            )}
-                          </Item>
-                        </div>
-                      ))}
-                    </div>
-                  </div>
-                </div>
-              )}
-            </>
+          {typeof postData.report != "undefined" && (
+            <ImageGallery gallery={postData.report} />
           )}
 
           {typeof postData.description2 != "undefined" && (
@@ -202,10 +215,32 @@ const ProjectDetail = (props) => {
             </>
           )}
 
+          {typeof postData.gallery != "undefined" && (
+            <ImageGallery gallery={postData.gallery} />
+          )}
+
+          {typeof postData.description3 != "undefined" && (
+            <>
+              {postData.description3.enabled == 1 && (
+                <div className="row justify-content-center">
+                  <div className="col-lg-10 col-xl-6">
+                    <h5 className="mil-appearance mil-mb-30">
+                      {postData.description3.heading}
+                    </h5>
+
+                    <p className="mil-appearance">
+                      {postData.description3.content}
+                    </p>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
           {typeof postData.finalImage != "undefined" && (
             <>
               {postData.finalImage.enabled == 1 && (
-                <div className="row justify-content-center mil-p-0-90">
+                <div className="row justify-content-center mil-p-120-90">
                   <div className="col-lg-12 col-xl-9">
                     <Item
                       original={postData.finalImage.image}
@@ -238,17 +273,17 @@ const ProjectDetail = (props) => {
             </>
           )}
 
-          {typeof postData.description3 != "undefined" && (
+          {typeof postData.description4 != "undefined" && (
             <>
-              {postData.description3.enabled == 1 && (
+              {postData.description4.enabled == 1 && (
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-xl-6">
                     <h5 className="mil-appearance mil-mb-30">
-                      {postData.description3.heading}
+                      {postData.description4.heading}
                     </h5>
 
                     <p className="mil-appearance">
-                      {postData.description3.content}
+                      {postData.description4.content}
                     </p>
                   </div>
                 </div>

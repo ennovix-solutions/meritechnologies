@@ -6,7 +6,8 @@ description: "Meri Technologies' website was in need of a modern refresh to refl
 imageWidth: 1200
 imageHeight: 1200
 category:
-    - "Automotive Dealership"
+    - "Digital Marketing"
+    - " - Digital Marketing"
 
 #full details
 details:
