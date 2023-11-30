@@ -1,7 +1,7 @@
 ---
 #preview
 title: "Lucy Multi Specialty Hospital"
-image: "/img/portfolios/lucy-hospital.png"
+image: "/img/portfolios/project-lucy.png"
 description: "Lucy Multi Specialty Hospital is where we are committed to providing the highest quality medical care to our patients."
 imageWidth: 1100
 imageHeight: 1217
