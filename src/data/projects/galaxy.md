@@ -1,7 +1,7 @@
 ---
 #preview
 title: "Galaxy Wisdom Training and Consultancy"
-image: "/img/portfolios/galaxy-wisdom.png"
+image: "/img/portfolios/project-galaxy.png"
 description: "Galaxy Wisdom Training and Consultancy is where we are committed to providing the highest quality medical care to our patients."
 imageWidth: 1100
 imageHeight: 1217

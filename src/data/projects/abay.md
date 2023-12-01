@@ -1,7 +1,7 @@
 ---
 #preview
 title: "Abay Mart"
-image: "/img/portfolios/abay-mart.png"
+image: "/img/portfolios/project-abay.png"
 description: "Abay Mart is where we are committed to providing the highest quality medical care to our patients."
 imageWidth: 1100
 imageHeight: 1217
