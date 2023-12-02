@@ -26,14 +26,14 @@ description0:
     "
 
 description1:
-    enabled: 1
+    enabled: 0
     heading: "Report Captivating Marketing Campaign"
     content: "
         Our digital marketing team, crafted a captivating marketing campaign. It focused on highlighting the services of Lucy Multi Specialty Hospital and uniqueness of 'Lucy'.
     "
 
 report: 
-    enabled: 1
+    enabled: 0
     limit: 3
     items:
         - image: "/img/portfolios/lucy/report-images/0001.jpg"
