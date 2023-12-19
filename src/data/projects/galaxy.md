@@ -21,15 +21,18 @@ details:
 description0:
     enabled: 1
     content: "
-        Welcome to Lucy Multi Specialty Hospital, where we are committed to providing the highest quality medical care to our patients. Our hospital is equipped with state-of-the-art facilities and staffed with experienced doctors, nurses, and support staff who work tirelessly to ensure that you receive the best treatment possible. 
-        Lucy Multispeciality Hospital was founded with a vision to provide world-class medical care to our patients. Our hospital has been designed to provide a welcoming and comfortable environment where patients can receive high-quality medical care. We are committed to providing our patients with a holistic approach to healthcare, with a focus on preventive medicine and patient education.
+             Galaxy Wisdom Consultation Service is dedicated to providing insightful guidance and knowledge to individuals seeking wisdom and enlightenment. This report showcases the impactful collaboration with Meri Technologies, highlighting key areas of expertise that contribute to Galaxy Wisdom's success in the realm of consultation services.
+
     "
 
 description1:
     enabled: 0
-    heading: "Report Captivating Marketing Campaign"
+    heading: "Consultation Service"
     content: "
-        Our digital marketing team, crafted a captivating marketing campaign. It focused on highlighting the services of Lucy Multi Specialty Hospital and uniqueness of 'Lucy'.
+         Galaxy Wisdom's online presence and brand awareness have been amplified through strategic digital marketing efforts by Meri Technologies. Engaging content on various platforms, along with consistent messaging, reflects Meri's expertise in refining Galaxy Wisdom's brand identity and creating a unified online presence.
+        <br />
+
+        The report highlights the campaign's performance and analytics, suggesting the implementation of tools to track and optimize digital marketing efforts effectively.
     "
 
 report: 
@@ -92,9 +95,13 @@ report:
 
 description2:
     enabled: 1
-    heading: "Service Images Captivating Marketing Campaign"
+    heading: "Campaign Performance and Analytics"
     content: "
-        Our digital marketing team, crafted a captivating marketing campaign. It focused on highlighting the services of Lucy Multi Specialty Hospital and uniqueness of 'Lucy'.
+    Galaxy Wisdom's online presence and brand awareness have been amplified through strategic digital marketing efforts by Meri Technologies. Engaging content on various platforms, along with consistent messaging, reflects Meri's expertise in refining Galaxy Wisdom's brand identity and creating a unified online presence.
+        <br />
+
+        The report highlights the campaign's performance and analytics, suggesting the implementation of tools to track and optimize digital marketing efforts effectively.
+   
     "
 
 
@@ -136,14 +143,14 @@ gallery:
     style: "horizontal"
 
 description3:
-    enabled: 1
+    enabled: 0
     heading: "Final Image Captivating Marketing Campaign"
     content: "
         Our digital marketing team, crafted a captivating marketing campaign. It focused on highlighting the services of Lucy Multi Specialty Hospital and uniqueness of 'Lucy'.
     "
 
 finalImage:
-    enabled: 1
+    enabled: 0
     image: "/img/portfolios/lucy/lucy6.jpg"
     width: 1200
     height: 1600
@@ -153,6 +160,7 @@ description4:
     enabled: 1
     heading: "Conclusion"
     content: "
-        Our team of doctors at Lucy Multispeciality Hospital is comprised of highly skilled and experienced healthcare professionals who are committed to providing the best possible care to our patients. Our doctors are experts in their respective fields, and they are dedicated to staying up-to-date with the latest medical advancements to ensure that our patients receive the most advanced medical care available.
+              Meri Technologies' digital marketing efforts have significantly contributed to Galaxy Wisdom Consultation Service's online presence. By increasing visibility, engaging clients, and strengthening brand identity, Meri has played a crucial role in helping Galaxy Wisdom reach a wider audience and establish itself as a trusted source of wisdom and enlightenment.
+
     "
 ---

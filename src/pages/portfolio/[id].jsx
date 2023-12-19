@@ -162,9 +162,9 @@ const ProjectDetail = (props) => {
             {typeof postData.description0 != "undefined" && (
               <>
                 {postData.description0.enabled == 1 && (
-                  <div className="col-lg-10 col-xl-6">
-                    <p className="mil-first-letter mil-appearance">
-                      {postData.description0.content}
+                  <div className="col-lg-10 col-xl-6 " style={{marginTop: "40px"}}>
+                    <p dangerouslySetInnerHTML={{__html: postData.description0.content}} className="mil-first-letter mil-appearance">
+                      
                     </p>
                   </div>
                 )}
@@ -180,12 +180,11 @@ const ProjectDetail = (props) => {
                   className="row justify-content-center mil-p-0-0"
                 >
                   <div className="col-lg-10 col-xl-6 mil-text-center">
-                    <h5 className="mil-appearance mil-mb-30">
-                      {postData.description1.heading}
+                    <h5 dangerouslySetInnerHTML={{__html: postData.description1.heading}} className="mil-appearance mil-mb-30">
+                      
                     </h5>
 
-                    <p className="mil-appearance">
-                      {postData.description1.content}
+                    <p className="mil-appearance" dangerouslySetInnerHTML={{__html: postData.description1.content}}>
                     </p>
                   </div>
                 </div>
@@ -202,13 +201,12 @@ const ProjectDetail = (props) => {
               {postData.description2.enabled == 1 && (
                 <div className="row justify-content-center mil-p-90-120">
                   <div className="col-lg-10 col-xl-6">
-                    <h5 className="mil-appearance mil-mb-30">
-                      {postData.description2.heading}
+                    <h5 dangerouslySetInnerHTML={{__html: postData.description2.heading}} className="mil-appearance mil-mb-30">
+                      
                     </h5>
 
-                    <p className="mil-appearance">
-                      {postData.description2.content}
-                    </p>
+                    <p className="mil-appearance" dangerouslySetInnerHTML={{__html: postData.description1.content}}>
+</p>
                   </div>
                 </div>
               )}
@@ -224,12 +222,12 @@ const ProjectDetail = (props) => {
               {postData.description3.enabled == 1 && (
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-xl-6">
-                    <h5 className="mil-appearance mil-mb-30">
-                      {postData.description3.heading}
+                    <h5 dangerouslySetInnerHTML={{__html: postData.description3.heading}} className="mil-appearance mil-mb-30">
+                      
                     </h5>
 
-                    <p className="mil-appearance">
-                      {postData.description3.content}
+                    <p className="mil-appearance" dangerouslySetInnerHTML={{__html: postData.description3.content}}>
+
                     </p>
                   </div>
                 </div>
@@ -278,12 +276,31 @@ const ProjectDetail = (props) => {
               {postData.description4.enabled == 1 && (
                 <div className="row justify-content-center">
                   <div className="col-lg-10 col-xl-6">
-                    <h5 className="mil-appearance mil-mb-30">
-                      {postData.description4.heading}
+                    <h5 dangerouslySetInnerHTML={{__html: postData.description4.heading}} className="mil-appearance mil-mb-30">
+                      
                     </h5>
 
                     <p className="mil-appearance">
                       {postData.description4.content}
+                    </p>
+                  </div>
+                </div>
+              )}
+            </>
+          )}
+
+          
+          {typeof postData.description5 != "undefined" && (
+            <>
+              {postData.description5.enabled == 1 && (
+                <div className="row justify-content-center">
+                  <div className="col-lg-10 col-xl-6">
+                    <h5 dangerouslySetInnerHTML={{__html: postData.description5.heading}} className="mil-appearance mil-mb-30">
+                      
+                    </h5>
+
+                    <p className="mil-appearance">
+                      {postData.description5.content}
                     </p>
                   </div>
                 </div>
