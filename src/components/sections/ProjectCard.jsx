@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 
-export function ProjectCardBig({ item }) {
+export function ProjectCardBig({ item, noImage }) {
   return (
     <div className="portfolio-container ">
       <div className="portfolio-left">
@@ -12,9 +12,9 @@ export function ProjectCardBig({ item }) {
         </h5>
         <div className="portfolio-desc">{item.description}</div>
       </div>
-      <div className="portfolio-right">
-        <img src={item.image} />
-      </div>
+      { !noImage && <div className="portfolio-right">
+         <img src={item.image} />
+      </div> }
     </div>
   );
 }

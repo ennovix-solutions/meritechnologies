@@ -1,6 +1,6 @@
 import ProjectCard, { ProjectCardBig } from "./ProjectCard";
 
-function Portfolio({ items, isPortfolioPage }) {
+function Portfolio({ items, isPortfolioPage, noImage }) {
   return (
     <div className="mil-services-1 mil-icon-2-trigger mil-accent-trigger mil-pseudo-hover-el">
       {/* background image */}
@@ -15,7 +15,7 @@ function Portfolio({ items, isPortfolioPage }) {
       <div className="row m-0">
         {items.map((item, key) =>
           isPortfolioPage ? (
-            <ProjectCardBig key={key} item={item} />
+            <ProjectCardBig noImage={noImage} key={key} item={item} />
           ) : (
             <div
               className="col-12 col-sm-6 col-lg-4 p-1 pb-1"

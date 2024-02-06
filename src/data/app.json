@@ -34,6 +34,11 @@
         "children": 0
       },
       {
+        "label": "ERP",
+        "link": "/erp-solutions",
+        "children": 0
+      },
+      {
         "label": "Services",
         "link": "/services",
         "children": 0

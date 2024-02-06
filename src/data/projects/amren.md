@@ -9,5 +9,4 @@ imageHeight: 1217
 # link: "https://galaxywisdom.org"
 category: 
     - "Digital Marketing"
-
 ---
