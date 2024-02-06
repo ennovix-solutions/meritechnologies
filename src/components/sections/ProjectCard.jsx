@@ -6,7 +6,7 @@ export function ProjectCardBig({ item }) {
     <div className="portfolio-container ">
       <div className="portfolio-left">
         <h5 className="portfolio-title">
-          <Link href={"portfolio/" + item.id} className="mil-link-hover">
+          <Link href={ item.fileLink ? item.fileLink : "portfolio/" + item.id} className="mil-link-hover">
             {item.title}
           </Link>
         </h5>
@@ -52,7 +52,7 @@ function ProjectCard({ item }) {
           </div>
 
           <div className="card-back">
-            <Link href={"portfolio/" + item.id}>
+            <Link href={ item.fileLink ? item.fileLink : "portfolio/" + item.id}>
               <figure>
                 <div className="img-bg"></div>
                 <img src={item.image} alt={item.title} width={"100%"} />

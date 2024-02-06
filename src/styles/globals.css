@@ -688,13 +688,16 @@ button:focus + .design-container {
 }
 .portfolio-right {
   background: #ffa726;
-  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
   color: #f1f1f2;
   position: relative;
   width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .portfolio-right > img {
+  box-shadow: 0px 0px 40px 16px rgba(0, 0, 0, 0.22);
   width: 100%;
 }
 
